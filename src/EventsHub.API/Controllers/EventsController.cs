@@ -20,7 +20,7 @@ namespace EventsHub.API.Controllers
 
             if (@event == null)
             {
-                return NotFound("The events was not found.");
+                return NotFound("The event was not found.");
             }
 
             return @event;
