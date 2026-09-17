@@ -11,7 +11,7 @@ using Persistence;
 namespace EventsHub.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260828133023_InitialCreate")]
+    [Migration("20260917130757_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
