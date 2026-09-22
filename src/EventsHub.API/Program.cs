@@ -1,3 +1,4 @@
+using EventsHub.Application.Events.Queries;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 });
 
 builder.Services.AddCors();
+builder.Services.AddMediatR(opt => opt.RegisterServicesFromAssemblyContaining<GetEventList.Handler>());
 
 var app = builder.Build();
 
