@@ -1,0 +1,500 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1790689366.8481982,
+    "seen": 1790689864.3989909,
+    "ast_hash": "da81092b9f132903281aebf96b7c8b0b",
+    "semantic_hash": "da81092b9f132903281aebf96b7c8b0b"
+  },
+  ".config/dotnet-tools.json": {
+    "mtime": 1788355719.6603425,
+    "seen": 1790689864.3989985,
+    "ast_hash": "f8d2497b2d51e9ba9b4bbd5fda9d0bd0",
+    "semantic_hash": "f8d2497b2d51e9ba9b4bbd5fda9d0bd0"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1787749811.585115,
+    "seen": 1790689864.3990016,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  "EventsHub.slnx": {
+    "mtime": 1789590826.1034214,
+    "seen": 1790689864.3990035,
+    "ast_hash": "e61b68dc80d632832c20a5211f53e2f1",
+    "semantic_hash": "e61b68dc80d632832c20a5211f53e2f1"
+  },
+  "src/EventsHub.API/Controllers/EventsController.cs": {
+    "mtime": 1790601942.4653893,
+    "seen": 1790689864.399005,
+    "ast_hash": "dad70ec2319f9a23fe74cb67b2d66a4b",
+    "semantic_hash": "dad70ec2319f9a23fe74cb67b2d66a4b"
+  },
+  "src/EventsHub.API/Controllers/EventsHubBaseController.cs": {
+    "mtime": 1790083902.2979772,
+    "seen": 1790689864.3990064,
+    "ast_hash": "3e25029a9e84140adae5d21f9f520564",
+    "semantic_hash": "3e25029a9e84140adae5d21f9f520564"
+  },
+  "src/EventsHub.API/Controllers/WeatherForecastController.cs": {
+    "mtime": 1787925467.4222755,
+    "seen": 1790689864.3990076,
+    "ast_hash": "44fb0395b35a147ccfe0430fb811c2c5",
+    "semantic_hash": "44fb0395b35a147ccfe0430fb811c2c5"
+  },
+  "src/EventsHub.API/EventsHub.API.csproj": {
+    "mtime": 1787923411.342913,
+    "seen": 1790689864.3990088,
+    "ast_hash": "34f9f46c12ff6454f5756384761966df",
+    "semantic_hash": "34f9f46c12ff6454f5756384761966df"
+  },
+  "src/EventsHub.API/Program.cs": {
+    "mtime": 1790257178.3951235,
+    "seen": 1790689864.39901,
+    "ast_hash": "61ad7814699af04fc87e8aa052153646",
+    "semantic_hash": "61ad7814699af04fc87e8aa052153646"
+  },
+  "src/EventsHub.API/Properties/launchSettings.json": {
+    "mtime": 1787594139.975247,
+    "seen": 1790689864.3990114,
+    "ast_hash": "6e218ce5a11ab160c408a50704ba2cc5",
+    "semantic_hash": "6e218ce5a11ab160c408a50704ba2cc5"
+  },
+  "src/EventsHub.API/WeatherForecast.cs": {
+    "mtime": 1787922953.123513,
+    "seen": 1790689864.3990126,
+    "ast_hash": "492e3cc7f4a18031f171fba8f3cfc0f6",
+    "semantic_hash": "492e3cc7f4a18031f171fba8f3cfc0f6"
+  },
+  "src/EventsHub.API/appsettings.Development.json": {
+    "mtime": 1787922916.5471463,
+    "seen": 1790689864.3990142,
+    "ast_hash": "2b8145d93762b6133e98d1e7a5b98397",
+    "semantic_hash": "2b8145d93762b6133e98d1e7a5b98397"
+  },
+  "src/EventsHub.API/appsettings.json": {
+    "mtime": 1787922923.4633818,
+    "seen": 1790689864.399015,
+    "ast_hash": "2b8145d93762b6133e98d1e7a5b98397",
+    "semantic_hash": "2b8145d93762b6133e98d1e7a5b98397"
+  },
+  "src/EventsHub.Application/Core/MappingProfiles.cs": {
+    "mtime": 1790256888.6496587,
+    "seen": 1790689864.3990161,
+    "ast_hash": "edec58ebbf898664d54de9e0710c3013",
+    "semantic_hash": "edec58ebbf898664d54de9e0710c3013"
+  },
+  "src/EventsHub.Application/EventsHub.Application.csproj": {
+    "mtime": 1790257182.593307,
+    "seen": 1790689864.3990173,
+    "ast_hash": "9a0b29dd602d58a274aa78f2d601c4ca",
+    "semantic_hash": "9a0b29dd602d58a274aa78f2d601c4ca"
+  },
+  "src/EventsHub.Application/Events/Commands/CreateEvent.cs": {
+    "mtime": 1790169548.2313912,
+    "seen": 1790689864.399018,
+    "ast_hash": "105fa80160071ff1433e4df760126aef",
+    "semantic_hash": "105fa80160071ff1433e4df760126aef"
+  },
+  "src/EventsHub.Application/Events/Commands/DeleteEvent.cs": {
+    "mtime": 1790601541.3421345,
+    "seen": 1790689864.399019,
+    "ast_hash": "2e63c6395a2544a24159b5bf45a3c01c",
+    "semantic_hash": "2e63c6395a2544a24159b5bf45a3c01c"
+  },
+  "src/EventsHub.Application/Events/Commands/EditEvent.cs": {
+    "mtime": 1790256745.6600842,
+    "seen": 1790689864.3990202,
+    "ast_hash": "c9d8df1424a47423127cee74c1d5ca5d",
+    "semantic_hash": "c9d8df1424a47423127cee74c1d5ca5d"
+  },
+  "src/EventsHub.Application/Events/Queries/GetEventDetails.cs": {
+    "mtime": 1790083314.1367667,
+    "seen": 1790689864.3990214,
+    "ast_hash": "abe9d5588150d36b2742f0625ae38c51",
+    "semantic_hash": "abe9d5588150d36b2742f0625ae38c51"
+  },
+  "src/EventsHub.Application/Events/Queries/GetEventList.cs": {
+    "mtime": 1789997359.2901783,
+    "seen": 1790689864.399022,
+    "ast_hash": "370e99ac676f34bdbc76918f00c3037c",
+    "semantic_hash": "370e99ac676f34bdbc76918f00c3037c"
+  },
+  "src/EventsHub.Domain/Event.cs": {
+    "mtime": 1789649345.8425105,
+    "seen": 1790689864.399023,
+    "ast_hash": "793c86336160d3adb584499530cbd475",
+    "semantic_hash": "793c86336160d3adb584499530cbd475"
+  },
+  "src/EventsHub.Domain/EventsHub.Domain.csproj": {
+    "mtime": 1787585271.743968,
+    "seen": 1790689864.399024,
+    "ast_hash": "46b0780bd56312ea2d1bab391f179e89",
+    "semantic_hash": "46b0780bd56312ea2d1bab391f179e89"
+  },
+  "src/EventsHub.OpenApi/EventsHub.OpenApi.csproj": {
+    "mtime": 1788355143.7892241,
+    "seen": 1790689864.3990257,
+    "ast_hash": "009ea577d410f3c605427bbcefe5b612",
+    "semantic_hash": "009ea577d410f3c605427bbcefe5b612"
+  },
+  "src/EventsHub.OpenApi/Program.cs": {
+    "mtime": 1788355272.6197102,
+    "seen": 1790689864.3990266,
+    "ast_hash": "3f009343d7e17afbc7e724ed203fe2d7",
+    "semantic_hash": "3f009343d7e17afbc7e724ed203fe2d7"
+  },
+  "src/EventsHub.OpenApi/Properties/launchSettings.json": {
+    "mtime": 1788355361.2457,
+    "seen": 1790689864.3990278,
+    "ast_hash": "b237340d3ad05fa1a642a7532b098842",
+    "semantic_hash": "b237340d3ad05fa1a642a7532b098842"
+  },
+  "src/EventsHub.OpenApi/appsettings.Development.json": {
+    "mtime": 1788355109.802346,
+    "seen": 1790689864.3990288,
+    "ast_hash": "804b473502a4c415cf75db61c56c32aa",
+    "semantic_hash": "804b473502a4c415cf75db61c56c32aa"
+  },
+  "src/EventsHub.OpenApi/appsettings.json": {
+    "mtime": 1788355109.8043454,
+    "seen": 1790689864.39903,
+    "ast_hash": "f7e65dde4e5533740a0d57ac9355c0e8",
+    "semantic_hash": "f7e65dde4e5533740a0d57ac9355c0e8"
+  },
+  "src/EventsHub.Persistence/AppDbContext.cs": {
+    "mtime": 1787751149.554144,
+    "seen": 1790689864.399031,
+    "ast_hash": "ca224e8c11d3e9022d4354dbf66c91bf",
+    "semantic_hash": "ca224e8c11d3e9022d4354dbf66c91bf"
+  },
+  "src/EventsHub.Persistence/DbInitializer.cs": {
+    "mtime": 1787923411.3555918,
+    "seen": 1790689864.399032,
+    "ast_hash": "0931a71d00acb2b24ff7d37a75abc813",
+    "semantic_hash": "0931a71d00acb2b24ff7d37a75abc813"
+  },
+  "src/EventsHub.Persistence/EventsHub.Persistence.csproj": {
+    "mtime": 1787923002.0940857,
+    "seen": 1790689864.399033,
+    "ast_hash": "d2b1844ca17c880c2c97add3046281e1",
+    "semantic_hash": "d2b1844ca17c880c2c97add3046281e1"
+  },
+  "src/EventsHub.Persistence/Migrations/20260917130757_InitialCreate.Designer.cs": {
+    "mtime": 1789650477.0787768,
+    "seen": 1790689864.399034,
+    "ast_hash": "75c52a147401cacffbdee3439f6950ab",
+    "semantic_hash": "75c52a147401cacffbdee3439f6950ab"
+  },
+  "src/EventsHub.Persistence/Migrations/20260917130757_InitialCreate.cs": {
+    "mtime": 1789650477.0777788,
+    "seen": 1790689864.399035,
+    "ast_hash": "1864429bc01ed71e09d68126ecf0619e",
+    "semantic_hash": "1864429bc01ed71e09d68126ecf0619e"
+  },
+  "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs": {
+    "mtime": 1789650477.079777,
+    "seen": 1790689864.399036,
+    "ast_hash": "d3f679ab1a12ec04658e75df4a9d4257",
+    "semantic_hash": "d3f679ab1a12ec04658e75df4a9d4257"
+  },
+  "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs": {
+    "mtime": 1788356172.3696642,
+    "seen": 1790689864.399037,
+    "ast_hash": "fd3d7138939cac5a0f764cd3d1b6c6aa",
+    "semantic_hash": "fd3d7138939cac5a0f764cd3d1b6c6aa"
+  },
+  "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs": {
+    "mtime": 1789593540.9649966,
+    "seen": 1790689864.3990378,
+    "ast_hash": "336526c805f72f2365b8da661bd381e0",
+    "semantic_hash": "336526c805f72f2365b8da661bd381e0"
+  },
+  "tests/EventsHub.UnitTests/EventsHub.UnitTests.csproj": {
+    "mtime": 1789591554.8882945,
+    "seen": 1790689864.399039,
+    "ast_hash": "f81488ab580b30fd7881dcf3d3fc1b08",
+    "semantic_hash": "f81488ab580b30fd7881dcf3d3fc1b08"
+  },
+  "tests/EventsHub.UnitTests/GlobalTestSetup.cs": {
+    "mtime": 1789592053.5445516,
+    "seen": 1790689864.39904,
+    "ast_hash": "7af7aeb78cc4948d7684cc3f7c8477cd",
+    "semantic_hash": "7af7aeb78cc4948d7684cc3f7c8477cd"
+  },
+  "web/eslint.config.js": {
+    "mtime": 1788795685.5445652,
+    "seen": 1790689864.399041,
+    "ast_hash": "75a0286de267d5393020e4439ed72f6a",
+    "semantic_hash": "75a0286de267d5393020e4439ed72f6a"
+  },
+  "web/package.json": {
+    "mtime": 1789047459.0458264,
+    "seen": 1790689864.3990421,
+    "ast_hash": "64097554a080808318fe3af62d7bdbf9",
+    "semantic_hash": "64097554a080808318fe3af62d7bdbf9"
+  },
+  "web/src/App.tsx": {
+    "mtime": 1789047410.8384168,
+    "seen": 1790689864.3990433,
+    "ast_hash": "0f9b3069a38c2aed1f8907c1fbb65d55",
+    "semantic_hash": "0f9b3069a38c2aed1f8907c1fbb65d55"
+  },
+  "web/src/lib/types/index.d.ts": {
+    "mtime": 1788960265.8652315,
+    "seen": 1790689864.3990443,
+    "ast_hash": "5ae579a6d6fff05fdb1477d7173f9eeb",
+    "semantic_hash": "5ae579a6d6fff05fdb1477d7173f9eeb"
+  },
+  "web/src/main.tsx": {
+    "mtime": 1788962020.82628,
+    "seen": 1790689864.3990455,
+    "ast_hash": "a6dce4e3592d5ce2bdb45eaeab17f071",
+    "semantic_hash": "a6dce4e3592d5ce2bdb45eaeab17f071"
+  },
+  "web/tsconfig.app.json": {
+    "mtime": 1788795685.5595868,
+    "seen": 1790689864.3990462,
+    "ast_hash": "e4f83bdfdf660f5e5364945e14291d70",
+    "semantic_hash": "e4f83bdfdf660f5e5364945e14291d70"
+  },
+  "web/tsconfig.json": {
+    "mtime": 1788795685.5605817,
+    "seen": 1790689864.3990479,
+    "ast_hash": "852c3a5df14a4b43ac28e9554ebedf4a",
+    "semantic_hash": "852c3a5df14a4b43ac28e9554ebedf4a"
+  },
+  "web/tsconfig.node.json": {
+    "mtime": 1788795685.561583,
+    "seen": 1790689864.399049,
+    "ast_hash": "74cde0261ad0a13045ca0a05ab1542ae",
+    "semantic_hash": "74cde0261ad0a13045ca0a05ab1542ae"
+  },
+  "web/vite.config.ts": {
+    "mtime": 1789046289.5719037,
+    "seen": 1790689864.39905,
+    "ast_hash": "f46b0d015ff1a8545cc4ab79fe713c0a",
+    "semantic_hash": "f46b0d015ff1a8545cc4ab79fe713c0a"
+  },
+  ".codex/skills/architecture-docs/SKILL.md": {
+    "mtime": 1789947544.4494586,
+    "seen": 1790689864.3990507,
+    "ast_hash": "6d35c4730b3b594cb1da953635233792",
+    "semantic_hash": "6d35c4730b3b594cb1da953635233792"
+  },
+  ".codex/skills/graphify/SKILL.md": {
+    "mtime": 1790688918.3000062,
+    "seen": 1790689864.3990517,
+    "ast_hash": "0f57b61141afe7b743273aec47c49dcc",
+    "semantic_hash": "0f57b61141afe7b743273aec47c49dcc"
+  },
+  ".codex/skills/graphify/references/add-watch.md": {
+    "mtime": 1790687739.7307546,
+    "seen": 1790689864.3990529,
+    "ast_hash": "c1f65eb4102ad515149303c7f296b718",
+    "semantic_hash": "c1f65eb4102ad515149303c7f296b718"
+  },
+  ".codex/skills/graphify/references/exports.md": {
+    "mtime": 1790687739.7317574,
+    "seen": 1790689864.399054,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": "9da2a2152e60a22f07f05fed5158f287"
+  },
+  ".codex/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1790687739.7317574,
+    "seen": 1790689864.3990552,
+    "ast_hash": "bf895ec4d4e40f5f66f7d31c2a9bd4a7",
+    "semantic_hash": "bf895ec4d4e40f5f66f7d31c2a9bd4a7"
+  },
+  ".codex/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1790687739.7327583,
+    "seen": 1790689864.3990567,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": "cde13df085e4c492aeb7ba298a996d0d"
+  },
+  ".codex/skills/graphify/references/hooks.md": {
+    "mtime": 1790687739.733755,
+    "seen": 1790689864.3990579,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": "3f545db6ce646650bb9de588f5512a27"
+  },
+  ".codex/skills/graphify/references/query.md": {
+    "mtime": 1790687739.7727554,
+    "seen": 1790689864.399059,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": "3c46f8ad006874260614ed8657d02307"
+  },
+  ".codex/skills/graphify/references/transcribe.md": {
+    "mtime": 1790687739.773754,
+    "seen": 1790689864.39906,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": "67b6a5fa6c0974e18f60db9f8932fbd8"
+  },
+  ".codex/skills/graphify/references/update.md": {
+    "mtime": 1790687739.7747545,
+    "seen": 1790689864.399061,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": "9378bd03d56baaf78bd738ab3848f142"
+  },
+  "AGENTS.md": {
+    "mtime": 1790688918.3380454,
+    "seen": 1790689864.3990617,
+    "ast_hash": "654499ce3259a81143876919edf884f9",
+    "semantic_hash": "654499ce3259a81143876919edf884f9"
+  },
+  "README.md": {
+    "mtime": 1787583157.4214077,
+    "seen": 1790689864.3990629,
+    "ast_hash": "39ebef970f7d1e91ed046c99dc777fad",
+    "semantic_hash": "39ebef970f7d1e91ed046c99dc777fad"
+  },
+  "docs/Arquitectura.md": {
+    "mtime": 1789947875.432954,
+    "seen": 1790689864.3990638,
+    "ast_hash": "d75710db43e834ca39dfb8637fa1a22e",
+    "semantic_hash": "d75710db43e834ca39dfb8637fa1a22e"
+  },
+  "docs/fundamentals/CleanArchitectureFundamentals.md": {
+    "mtime": 1790600739.330244,
+    "seen": 1790689864.3990648,
+    "ast_hash": "822d74329cf66c63676c61ef9da98bf2",
+    "semantic_hash": "822d74329cf66c63676c61ef9da98bf2"
+  },
+  "docs/fundamentals/CqrsFundamentals.md": {
+    "mtime": 1790600750.8895323,
+    "seen": 1790689864.399066,
+    "ast_hash": "c7355acb42c12f0b411750f408c1614d",
+    "semantic_hash": "c7355acb42c12f0b411750f408c1614d"
+  },
+  "docs/fundamentals/DbContextFundamentals.md": {
+    "mtime": 1788795685.6209383,
+    "seen": 1790689864.399067,
+    "ast_hash": "2cfa429d1ac82e5535363607099bcd85",
+    "semantic_hash": "2cfa429d1ac82e5535363607099bcd85"
+  },
+  "docs/fundamentals/SoftwareTestingFundamentals.md": {
+    "mtime": 1789588162.062048,
+    "seen": 1790689864.3990679,
+    "ast_hash": "18c9f2224270762d0df3927b1d9a070f",
+    "semantic_hash": "18c9f2224270762d0df3927b1d9a070f"
+  },
+  "docs/guides/GitInPracticeGuide.md": {
+    "mtime": 1788795685.621936,
+    "seen": 1790689864.3990688,
+    "ast_hash": "5bfc61e9f17678e98b2fac13efc608c4",
+    "semantic_hash": "5bfc61e9f17678e98b2fac13efc608c4"
+  },
+  "docs/guides/OpenApiSetup.md": {
+    "mtime": 1788795685.624457,
+    "seen": 1790689864.39907,
+    "ast_hash": "10edbb930b121ca79ceacf25e367b5db",
+    "semantic_hash": "10edbb930b121ca79ceacf25e367b5db"
+  },
+  "docs/guides/install-graphify-openspec.md": {
+    "mtime": 1790600846.866352,
+    "seen": 1790689864.3990712,
+    "ast_hash": "7061a27013db1fcca88147d59a4cb42d",
+    "semantic_hash": "7061a27013db1fcca88147d59a4cb42d"
+  },
+  "tests/EventsHub.IntegrationTest/Events/Events - Create - 200.yml": {
+    "mtime": 1790170360.8277538,
+    "seen": 1790689864.3990722,
+    "ast_hash": "45d08da8f00dd72cb0f31bd3d6b65b42",
+    "semantic_hash": "45d08da8f00dd72cb0f31bd3d6b65b42"
+  },
+  "tests/EventsHub.IntegrationTest/Events/Events - Edit - 204.yml": {
+    "mtime": 1790256172.024811,
+    "seen": 1790689864.3990734,
+    "ast_hash": "3d4abc0039a29d05bacee571630ede7d",
+    "semantic_hash": "3d4abc0039a29d05bacee571630ede7d"
+  },
+  "tests/EventsHub.IntegrationTest/Events/Events - Get - 200.yml": {
+    "mtime": 1790257486.9444215,
+    "seen": 1790689864.3990743,
+    "ast_hash": "6c063589b05139dc68582fb038ac14d5",
+    "semantic_hash": "6c063589b05139dc68582fb038ac14d5"
+  },
+  "tests/EventsHub.IntegrationTest/Events/Events - Get - 404.yml": {
+    "mtime": 1788269423.5019882,
+    "seen": 1790689864.3990753,
+    "ast_hash": "3e75ef287412868651b3f8ae36703b5a",
+    "semantic_hash": "3e75ef287412868651b3f8ae36703b5a"
+  },
+  "tests/EventsHub.IntegrationTest/Events/Events - List - 200.yml": {
+    "mtime": 1788269222.8527544,
+    "seen": 1790689864.3990765,
+    "ast_hash": "a4763c8fd2233b2fd0379c4bb23546e6",
+    "semantic_hash": "a4763c8fd2233b2fd0379c4bb23546e6"
+  },
+  "tests/EventsHub.IntegrationTest/Events/folder.yml": {
+    "mtime": 1788183432.4538212,
+    "seen": 1790689864.3990774,
+    "ast_hash": "c926a8311483b2c59f3c7f13c0b8a14e",
+    "semantic_hash": "c926a8311483b2c59f3c7f13c0b8a14e"
+  },
+  "tests/EventsHub.IntegrationTest/WeatherForecast/WeatherForecast - List - 200.yml": {
+    "mtime": 1788268889.7955997,
+    "seen": 1790689864.3990784,
+    "ast_hash": "ae04bf0eff6f5db4719c71e5b86285d2",
+    "semantic_hash": "ae04bf0eff6f5db4719c71e5b86285d2"
+  },
+  "tests/EventsHub.IntegrationTest/WeatherForecast/folder.yml": {
+    "mtime": 1788183440.889786,
+    "seen": 1790689864.3990793,
+    "ast_hash": "c4661993c3437cd8e489b0dc6f61a57d",
+    "semantic_hash": "c4661993c3437cd8e489b0dc6f61a57d"
+  },
+  "tests/EventsHub.IntegrationTest/environments/local.yml": {
+    "mtime": 1788183158.838158,
+    "seen": 1790689864.3990808,
+    "ast_hash": "071549ec33bcc52e1b60db212c8bafb3",
+    "semantic_hash": "071549ec33bcc52e1b60db212c8bafb3"
+  },
+  "tests/EventsHub.IntegrationTest/opencollection.yml": {
+    "mtime": 1788182306.6035264,
+    "seen": 1790689864.3990815,
+    "ast_hash": "e05787a586fc689a5a322a134395dfbd",
+    "semantic_hash": "e05787a586fc689a5a322a134395dfbd"
+  },
+  "web/README.md": {
+    "mtime": 1788795685.5430558,
+    "seen": 1790689864.399083,
+    "ast_hash": "c0782d2758e58212132a88982ab9e0a3",
+    "semantic_hash": "c0782d2758e58212132a88982ab9e0a3"
+  },
+  "web/index.html": {
+    "mtime": 1788795685.5450544,
+    "seen": 1790689864.399084,
+    "ast_hash": "c7d72dbb299aaf3fe0fec5131c700e76",
+    "semantic_hash": "c7d72dbb299aaf3fe0fec5131c700e76"
+  },
+  "web/public/favicon.svg": {
+    "mtime": 1788795685.5505717,
+    "seen": 1790689864.3990853,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": "7e840862161341271697daa99a40d76b"
+  },
+  "web/public/icons.svg": {
+    "mtime": 1788795685.551572,
+    "seen": 1790689864.3990862,
+    "ast_hash": "21c7473c592c67dc87223d49892c8f0a",
+    "semantic_hash": "21c7473c592c67dc87223d49892c8f0a"
+  },
+  "web/src/assets/hero.png": {
+    "mtime": 1788795685.555578,
+    "seen": 1790689864.3990874,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "web/src/assets/react.svg": {
+    "mtime": 1788795685.556574,
+    "seen": 1790689864.3990884,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "web/src/assets/vite.svg": {
+    "mtime": 1788795685.557584,
+    "seen": 1790689864.3990893,
+    "ast_hash": "6d5180a782d64c8cf51ba01c2a2184d8",
+    "semantic_hash": "6d5180a782d64c8cf51ba01c2a2184d8"
+  }
+}
