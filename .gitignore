@@ -431,3 +431,22 @@ FodyWeavers.xsd
 *.db
 *.db-shm
 *.db-wal
+
+# Local environment secrets (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Machine-specific Codex hooks and Graphify backups
+/.codex/hooks.json
+*.graphify-bak
+
+# Graphify caches and generated bookkeeping
+# Keep graph.json, graph.html, GRAPH_REPORT.md and wiki documentation shareable.
+/graphify-out/cache/
+/graphify-out/.graphify*
+/graphify-out/manifest.json
+/graphify-out/cost.json
+/graphify-out/graph-health.json
