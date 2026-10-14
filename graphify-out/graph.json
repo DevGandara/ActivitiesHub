@@ -298,6 +298,58 @@
       "source_location": "L6"
     },
     {
+      "id": "web_src_features_activities_dashboard_activitiesdashboard_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "web_src_features_activities_dashboard_activitycard_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/src/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "web_src_features_activities_dashboard_activitylist_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "web_src_features_activities_details_activitydetail_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/src/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L3"
+    },
+    {
       "id": "src_eventshub_api_weatherforecast_eventshub_api_weatherforecast",
       "label": "WeatherForecast",
       "_callable": true,
@@ -650,42 +702,30 @@
       "source_location": "L6"
     },
     {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller",
-      "label": "EventsHubBaseController",
+      "id": "web_src_features_activities_form_activityform_props",
+      "label": "Props",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
+      "community": 21,
+      "community_name": "ActivityForm.tsx",
       "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s51"
-        ]
-      },
-      "norm_label": "eventshubbasecontroller",
-      "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
-      "source_location": "L5"
+      "norm_label": "props",
+      "source_file": "web/src/features/activities/form/ActivityForm.tsx",
+      "source_location": "L3"
     },
     {
-      "id": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller",
-      "label": "WeatherForecastController",
+      "id": "web_src_app_layout_navbar_props",
+      "label": "Props",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
+      "community": 31,
+      "community_name": "App.tsx",
       "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s35"
-        ]
-      },
-      "norm_label": "weatherforecastcontroller",
-      "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
-      "source_location": "L5"
+      "norm_label": "props",
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L4"
     },
     {
       "id": "web_src_lib_types_index_d_activity",
@@ -718,6 +758,44 @@
       "norm_label": "eventscontroller",
       "source_file": "src/EventsHub.API/Controllers/EventsController.cs",
       "source_location": "L8"
+    },
+    {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller",
+      "label": "EventsHubBaseController",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.API.Controllers",
+        "scope_chain": [
+          "s51"
+        ]
+      },
+      "norm_label": "eventshubbasecontroller",
+      "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller",
+      "label": "WeatherForecastController",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.API.Controllers",
+        "scope_chain": [
+          "s35"
+        ]
+      },
+      "norm_label": "weatherforecastcontroller",
+      "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
+      "source_location": "L5"
     },
     {
       "id": "tests_eventshub_unittests_controllers_eventscontrollertests_eventshub_unittests_controllers_eventscontrollertests",
@@ -1433,6 +1511,54 @@
       "source_location": "L23"
     },
     {
+      "id": "web_src_features_activities_dashboard_activitiesdashboard_activitiesdashboard",
+      "label": "ActivitiesDashboard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "activitiesdashboard()",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "web_src_features_activities_dashboard_activitycard_activitycard",
+      "label": "ActivityCard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "activitycard()",
+      "source_file": "web/src/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "web_src_features_activities_dashboard_activitylist_activitylist",
+      "label": "ActivityList()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "activitylist()",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_src_features_activities_details_activitydetail_activitydetail",
+      "label": "ActivityDetail()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "@mui/material",
+      "file_type": "code",
+      "norm_label": "activitydetail()",
+      "source_file": "web/src/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L9"
+    },
+    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_handler_handle",
       "label": ".Handle()",
       "_callable": true,
@@ -1531,48 +1657,40 @@
       "source_location": "L14"
     },
     {
-      "id": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller_get",
-      "label": ".Get()",
+      "id": "web_src_features_activities_form_activityform_activityform",
+      "label": "ActivityForm()",
       "_callable": true,
       "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
+      "community": 21,
+      "community_name": "ActivityForm.tsx",
       "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s35"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "Range",
-            "receiver_type": "Enumerable",
-            "lang": "csharp",
-            "line": "L15"
-          },
-          {
-            "callee": "FromDateTime",
-            "receiver_type": "DateOnly",
-            "lang": "csharp",
-            "line": "L17"
-          }
-        ]
-      },
-      "norm_label": ".get()",
-      "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
-      "source_location": "L12"
+      "norm_label": "activityform()",
+      "source_file": "web/src/features/activities/form/ActivityForm.tsx",
+      "source_location": "L8"
     },
     {
       "id": "web_src_app_layout_app_app",
       "label": "App()",
       "_callable": true,
       "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
+      "community": 31,
+      "community_name": "App.tsx",
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "web/src/app/layout/App.tsx",
-      "source_location": "L5"
+      "source_location": "L7"
+    },
+    {
+      "id": "web_src_app_layout_navbar_navbar",
+      "label": "NavBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "code",
+      "norm_label": "navbar()",
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L8"
     },
     {
       "id": "src_eventshub_api_controllers_eventscontroller_eventshub_api_controllers_eventscontroller_createeventasync",
@@ -1703,6 +1821,38 @@
       "norm_label": ".geteventsasync()",
       "source_file": "src/EventsHub.API/Controllers/EventsController.cs",
       "source_location": "L10"
+    },
+    {
+      "id": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller_get",
+      "label": ".Get()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.API.Controllers",
+        "scope_chain": [
+          "s35"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "Range",
+            "receiver_type": "Enumerable",
+            "lang": "csharp",
+            "line": "L15"
+          },
+          {
+            "callee": "FromDateTime",
+            "receiver_type": "DateOnly",
+            "lang": "csharp",
+            "line": "L17"
+          }
+        ]
+      },
+      "norm_label": ".get()",
+      "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
+      "source_location": "L12"
     },
     {
       "id": "tests_eventshub_unittests_controllers_eventscontrollertests_eventshub_unittests_controllers_eventscontrollertests_geteventdetailasync_wheneventdoesntexist_returnsnotfound",
@@ -2244,6 +2394,22 @@
       "source_location": ""
     },
     {
+      "id": "csharp_namespace:11600ed02711def8",
+      "label": "EventsHub.API.Controllers",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Persistence",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "EventsHub.API.Controllers"
+      },
+      "norm_label": "eventshub.api.controllers",
+      "source_file": "src/EventsHub.API/Controllers/EventsController.cs",
+      "source_location": "L6",
+      "type": "namespace"
+    },
+    {
       "id": "csharp_namespace:271cc9171cba8130",
       "label": "EventsHub.Persistence.Migrations",
       "_origin": "ast",
@@ -2340,6 +2506,22 @@
       "type": "namespace"
     },
     {
+      "id": "csharp_namespace:e73d2734f348d50b",
+      "label": "EventsHub.UnitTests.Controllers",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Persistence",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "EventsHub.UnitTests.Controllers"
+      },
+      "norm_label": "eventshub.unittests.controllers",
+      "source_file": "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs",
+      "source_location": "L6",
+      "type": "namespace"
+    },
+    {
       "id": "csharp_namespace:f29eb5a304ceb0ae",
       "label": "EventsHub.Application.Core",
       "_origin": "ast",
@@ -2408,6 +2590,28 @@
       "file_type": "code",
       "norm_label": "eventscontroller.cs",
       "source_file": "src/EventsHub.API/Controllers/EventsController.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller",
+      "label": "EventsHubBaseController.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Persistence",
+      "file_type": "code",
+      "norm_label": "eventshubbasecontroller.cs",
+      "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_api_controllers_weatherforecastcontroller",
+      "label": "WeatherForecastController.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Persistence",
+      "file_type": "code",
+      "norm_label": "weatherforecastcontroller.cs",
+      "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
       "source_location": "L1"
     },
     {
@@ -2485,6 +2689,17 @@
       "file_type": "code",
       "norm_label": "geteventlist.cs",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_openapi_program",
+      "label": "EventsHub.OpenApi/Program.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Persistence",
+      "file_type": "code",
+      "norm_label": "eventshub.openapi/program.cs",
+      "source_file": "src/EventsHub.OpenApi/Program.cs",
       "source_location": "L1"
     },
     {
@@ -2596,6 +2811,17 @@
       "norm_label": "modelbuilder",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "tests_eventshub_unittests_controllers_eventscontrollertests",
+      "label": "EventsControllerTests.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Persistence",
+      "file_type": "code",
+      "norm_label": "eventscontrollertests.cs",
+      "source_file": "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs",
+      "source_location": "L1"
     },
     {
       "id": "tests_eventshub_unittests_globaltestsetup",
@@ -3513,103 +3739,59 @@
       "source_location": "L2"
     },
     {
-      "id": "web_package_dependencies",
-      "label": "dependencies",
+      "id": "web_src_features_activities_dashboard_activitiesdashboard",
+      "label": "ActivitiesDashboard.tsx",
       "_origin": "ast",
       "community": 18,
-      "community_name": "dependencies",
+      "community_name": "@mui/material",
       "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "web/package.json",
-      "source_location": "L12"
+      "norm_label": "activitiesdashboard.tsx",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L1"
     },
     {
-      "id": "web_package_dependencies_axios",
-      "label": "axios",
+      "id": "web_src_features_activities_dashboard_activitycard",
+      "label": "ActivityCard.tsx",
       "_origin": "ast",
       "community": 18,
-      "community_name": "dependencies",
+      "community_name": "@mui/material",
       "file_type": "code",
-      "norm_label": "axios",
-      "source_file": "web/package.json",
-      "source_location": "L18"
+      "norm_label": "activitycard.tsx",
+      "source_file": "web/src/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L1"
     },
     {
-      "id": "web_package_dependencies_emotion_react",
-      "label": "@emotion/react",
+      "id": "web_src_features_activities_dashboard_activitylist",
+      "label": "ActivityList.tsx",
       "_origin": "ast",
       "community": 18,
-      "community_name": "dependencies",
+      "community_name": "@mui/material",
       "file_type": "code",
-      "norm_label": "@emotion/react",
-      "source_file": "web/package.json",
-      "source_location": "L13"
+      "norm_label": "activitylist.tsx",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L1"
     },
     {
-      "id": "web_package_dependencies_emotion_styled",
-      "label": "@emotion/styled",
+      "id": "web_src_features_activities_details_activitydetail",
+      "label": "ActivityDetail.tsx",
       "_origin": "ast",
       "community": 18,
-      "community_name": "dependencies",
+      "community_name": "@mui/material",
       "file_type": "code",
-      "norm_label": "@emotion/styled",
-      "source_file": "web/package.json",
-      "source_location": "L14"
+      "norm_label": "activitydetail.tsx",
+      "source_file": "web/src/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L1"
     },
     {
-      "id": "web_package_dependencies_fontsource_roboto",
-      "label": "@fontsource/roboto",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@fontsource/roboto",
-      "source_file": "web/package.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "web_package_dependencies_mui_icons_material",
-      "label": "@mui/icons-material",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@mui/icons-material",
-      "source_file": "web/package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "web_package_dependencies_mui_material",
+      "id": "ref_mui_material",
       "label": "@mui/material",
       "_origin": "ast",
       "community": 18,
-      "community_name": "dependencies",
-      "file_type": "code",
+      "community_name": "@mui/material",
+      "file_type": "concept",
       "norm_label": "@mui/material",
       "source_file": "web/package.json",
       "source_location": "L17"
-    },
-    {
-      "id": "web_package_dependencies_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "react",
-      "source_file": "web/package.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "web_package_dependencies_react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "react-dom",
-      "source_file": "web/package.json",
-      "source_location": "L20"
     },
     {
       "id": "csharp_namespace:28bfff1a45f4fc4b",
@@ -4204,152 +4386,15 @@
       "source_location": "L8"
     },
     {
-      "id": "controllerbase",
-      "label": "ControllerBase",
+      "id": "web_src_features_activities_form_activityform",
+      "label": "ActivityForm.tsx",
       "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
+      "community": 21,
+      "community_name": "ActivityForm.tsx",
       "file_type": "code",
-      "norm_label": "controllerbase",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "csharp_namespace:11600ed02711def8",
-      "label": "EventsHub.API.Controllers",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "metadata": {
-        "kind": "csharp_namespace",
-        "namespace": "EventsHub.API.Controllers"
-      },
-      "norm_label": "eventshub.api.controllers",
-      "source_file": "src/EventsHub.API/Controllers/EventsController.cs",
-      "source_location": "L6",
-      "type": "namespace"
-    },
-    {
-      "id": "csharp_namespace:e73d2734f348d50b",
-      "label": "EventsHub.UnitTests.Controllers",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "metadata": {
-        "kind": "csharp_namespace",
-        "namespace": "EventsHub.UnitTests.Controllers"
-      },
-      "norm_label": "eventshub.unittests.controllers",
-      "source_file": "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs",
-      "source_location": "L6",
-      "type": "namespace"
-    },
-    {
-      "id": "imediator",
-      "label": "IMediator",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "imediator",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller",
-      "label": "EventsHubBaseController.cs",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "eventshubbasecontroller.cs",
-      "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
+      "norm_label": "activityform.tsx",
+      "source_file": "web/src/features/activities/form/ActivityForm.tsx",
       "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller_mediator",
-      "label": "Mediator",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s51"
-        ]
-      },
-      "norm_label": "mediator",
-      "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
-      "source_location": "L11"
-    },
-    {
-      "id": "src_eventshub_api_controllers_weatherforecastcontroller",
-      "label": "WeatherForecastController.cs",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "weatherforecastcontroller.cs",
-      "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_api_controllers_weatherforecastcontroller_cs_httpget",
-      "label": "HttpGet",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "httpget",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_api_controllers_weatherforecastcontroller_cs_ienumerable",
-      "label": "IEnumerable",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "ienumerable",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_openapi_program",
-      "label": "EventsHub.OpenApi/Program.cs",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "eventshub.openapi/program.cs",
-      "source_file": "src/EventsHub.OpenApi/Program.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_eventshub_unittests_controllers_eventscontrollertests",
-      "label": "EventsControllerTests.cs",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "eventscontrollertests.cs",
-      "source_file": "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "weatherforecast",
-      "label": "WeatherForecast",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "weatherforecast",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "web_tsconfig",
@@ -4429,61 +4474,6 @@
       "source_location": "L3"
     },
     {
-      "id": "web_package_scripts",
-      "label": "scripts",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "web/package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "web_package_scripts_build",
-      "label": "build",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "build",
-      "source_file": "web/package.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "web_package_scripts_dev",
-      "label": "dev",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "dev",
-      "source_file": "web/package.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "web_package_scripts_lint",
-      "label": "lint",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "lint",
-      "source_file": "web/package.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "web_package_scripts_preview",
-      "label": "preview",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "preview",
-      "source_file": "web/package.json",
-      "source_location": "L10"
-    },
-    {
       "id": "web_package_type",
       "label": "type",
       "_origin": "ast",
@@ -4506,28 +4496,6 @@
       "source_location": "L4"
     },
     {
-      "id": "web_src_app_layout_app",
-      "label": "App.tsx",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "app.tsx",
-      "source_file": "web/src/app/layout/App.tsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "web_src_main",
-      "label": "main.tsx",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "main.tsx",
-      "source_file": "web/src/main.tsx",
-      "source_location": "L1"
-    },
-    {
       "id": "web_vite_config",
       "label": "vite.config.ts",
       "_origin": "ast",
@@ -4537,17 +4505,6 @@
       "norm_label": "vite.config.ts",
       "source_file": "web/vite.config.ts",
       "source_location": "L1"
-    },
-    {
-      "id": "ref_axios",
-      "label": "axios",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "axios",
-      "source_file": "web/package.json",
-      "source_location": "L18"
     },
     {
       "id": "ref_babel_core",
@@ -4638,17 +4595,6 @@
       "source_location": "L34"
     },
     {
-      "id": "ref_fontsource_roboto",
-      "label": "@fontsource/roboto",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "@fontsource/roboto",
-      "source_file": "web/package.json",
-      "source_location": "L15"
-    },
-    {
       "id": "ref_globals",
       "label": "globals",
       "_origin": "ast",
@@ -4658,50 +4604,6 @@
       "norm_label": "globals",
       "source_file": "web/package.json",
       "source_location": "L35"
-    },
-    {
-      "id": "ref_mui_icons_material",
-      "label": "@mui/icons-material",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "@mui/icons-material",
-      "source_file": "web/package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "ref_mui_material",
-      "label": "@mui/material",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "@mui/material",
-      "source_file": "web/package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "ref_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "react",
-      "source_file": "web/package.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "ref_react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "react-dom",
-      "source_file": "web/package.json",
-      "source_location": "L20"
     },
     {
       "id": "ref_rolldown_plugin_babel",
@@ -4812,6 +4714,193 @@
       "norm_label": "@vitejs/plugin-react",
       "source_file": "web/package.json",
       "source_location": "L30"
+    },
+    {
+      "id": "web_package_dependencies",
+      "label": "dependencies",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "web/package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "web_package_dependencies_axios",
+      "label": "axios",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "axios",
+      "source_file": "web/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "web_package_dependencies_emotion_react",
+      "label": "@emotion/react",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@emotion/react",
+      "source_file": "web/package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "web_package_dependencies_emotion_styled",
+      "label": "@emotion/styled",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@emotion/styled",
+      "source_file": "web/package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "web_package_dependencies_fontsource_roboto",
+      "label": "@fontsource/roboto",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@fontsource/roboto",
+      "source_file": "web/package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "web_package_dependencies_mui_icons_material",
+      "label": "@mui/icons-material",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@mui/icons-material",
+      "source_file": "web/package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "web_package_dependencies_mui_material",
+      "label": "@mui/material",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@mui/material",
+      "source_file": "web/package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "web_package_dependencies_react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "react",
+      "source_file": "web/package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "web_package_dependencies_react_dom",
+      "label": "react-dom",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "react-dom",
+      "source_file": "web/package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "web_src_app_layout_app",
+      "label": "App.tsx",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "code",
+      "norm_label": "app.tsx",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_src_app_layout_navbar",
+      "label": "NavBar.tsx",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "code",
+      "norm_label": "navbar.tsx",
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_src_main",
+      "label": "main.tsx",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "code",
+      "norm_label": "main.tsx",
+      "source_file": "web/src/main.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ref_axios",
+      "label": "axios",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "concept",
+      "norm_label": "axios",
+      "source_file": "web/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "ref_fontsource_roboto",
+      "label": "@fontsource/roboto",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "concept",
+      "norm_label": "@fontsource/roboto",
+      "source_file": "web/package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "ref_mui_icons_material",
+      "label": "@mui/icons-material",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "concept",
+      "norm_label": "@mui/icons-material",
+      "source_file": "web/package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "concept",
+      "norm_label": "react",
+      "source_file": "web/package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "ref_react_dom",
+      "label": "react-dom",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "App.tsx",
+      "file_type": "concept",
+      "norm_label": "react-dom",
+      "source_file": "web/package.json",
+      "source_location": "L20"
     },
     {
       "id": "web_src_lib_types_index_d",
@@ -5069,6 +5158,61 @@
       "norm_label": "openspec-update-change/skill.md",
       "source_file": ".agents/skills/openspec-update-change/SKILL.md",
       "source_location": "L1"
+    },
+    {
+      "id": "web_package_scripts",
+      "label": "scripts",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "web/package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "web_package_scripts_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "web/package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "web_package_scripts_dev",
+      "label": "dev",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "dev",
+      "source_file": "web/package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "web_package_scripts_lint",
+      "label": "lint",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "lint",
+      "source_file": "web/package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_package_scripts_preview",
+      "label": "preview",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "preview",
+      "source_file": "web/package.json",
+      "source_location": "L10"
     },
     {
       "id": "eventshub",
@@ -5445,6 +5589,17 @@
       "source_location": ""
     },
     {
+      "id": "controllerbase",
+      "label": "ControllerBase",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "controllerbase",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "httpdelete",
       "label": "HttpDelete",
       "_origin": "ast",
@@ -5474,6 +5629,17 @@
       "community_name": "EventsController",
       "file_type": "code",
       "norm_label": "httpput",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "imediator",
+      "label": "IMediator",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "imediator",
       "source_file": "",
       "source_location": ""
     },
@@ -5544,6 +5710,45 @@
       "source_location": ""
     },
     {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller_mediator",
+      "label": "Mediator",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.API.Controllers",
+        "scope_chain": [
+          "s51"
+        ]
+      },
+      "norm_label": "mediator",
+      "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_eventshub_api_controllers_weatherforecastcontroller_cs_httpget",
+      "label": "HttpGet",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "httpget",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_api_controllers_weatherforecastcontroller_cs_ienumerable",
+      "label": "IEnumerable",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "ienumerable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "test",
       "label": "Test",
       "_origin": "ast",
@@ -5562,6 +5767,17 @@
       "community_name": "EventsController",
       "file_type": "code",
       "norm_label": "task",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "weatherforecast",
+      "label": "WeatherForecast",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "weatherforecast",
       "source_file": "",
       "source_location": ""
     },
@@ -6374,111 +6590,6 @@
       "source_url": null
     },
     {
-      "id": "web_public_icons_bluesky_icon",
-      "label": "Bluesky butterfly logo",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "bluesky butterfly logo",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_icons_discord_icon",
-      "label": "Discord controller mascot logo",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "discord controller mascot logo",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_icons_documentation_icon",
-      "label": "Purple code documentation icon",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "purple code documentation icon",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_icons_github_icon",
-      "label": "GitHub Octocat logo",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "github octocat logo",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_icons_social_icon",
-      "label": "Purple person and star social icon",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "purple person and star social icon",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_icons_sprite",
-      "label": "Reusable social and documentation SVG icon sprite",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "reusable social and documentation svg icon sprite",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_icons_x_icon",
-      "label": "X social network logo",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 21,
-      "community_name": "Reusable social and documentation SVG icon sprite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "x social network logo",
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
       "id": "web_readme_react_compiler",
       "label": "React Compiler",
       "_origin": "semantic",
@@ -6688,127 +6799,6 @@
       "file_type": "document",
       "norm_label": "events hub html entry point",
       "source_file": "web/index.html",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_favicon_lightning_bolt",
-      "label": "Stylized lightning bolt",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 28,
-      "community_name": "Purple and blue lightning favicon",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "stylized lightning bolt",
-      "source_file": "web/public/favicon.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_public_favicon_favicon",
-      "label": "Purple and blue lightning favicon",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 28,
-      "community_name": "Purple and blue lightning favicon",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "purple and blue lightning favicon",
-      "source_file": "web/public/favicon.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_src_assets_hero_layered_platform",
-      "label": "Two separated rounded square platform layers with purple base",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 29,
-      "community_name": "Exploded stack hero illustration",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "two separated rounded square platform layers with purple base",
-      "source_file": "web/src/assets/hero.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_src_assets_hero_hero_illustration",
-      "label": "Exploded stack hero illustration",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 29,
-      "community_name": "Exploded stack hero illustration",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "exploded stack hero illustration",
-      "source_file": "web/src/assets/hero.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_src_assets_react_react",
-      "label": "React",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 30,
-      "community_name": "React cyan atom logo",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "react",
-      "source_file": "web/src/assets/react.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_src_assets_react_logo",
-      "label": "React cyan atom logo",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 30,
-      "community_name": "React cyan atom logo",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "react cyan atom logo",
-      "source_file": "web/src/assets/react.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_src_assets_vite_vite",
-      "label": "Vite",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 31,
-      "community_name": "Vite",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "web/src/assets/vite.svg",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "web_src_assets_vite_vite_logo",
-      "label": "Vite logo: purple and blue lightning emblem",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 31,
-      "community_name": "Vite",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "vite logo: purple and blue lightning emblem",
-      "rationale": "A transparent SVG branding asset with a stylized purple lightning bolt, blue highlights, and parenthesis-shaped side marks; SVG styling adapts the side marks for dark mode.",
-      "source_file": "web/src/assets/vite.svg",
       "source_location": null,
       "source_url": null
     },
@@ -8101,6 +8091,18 @@
       "type": "external"
     },
     {
+      "id": "microsoft_aspnetcore_mvc",
+      "label": "microsoft_aspnetcore_mvc",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Persistence",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_aspnetcore_mvc",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "microsoft_entityframeworkcore",
       "label": "microsoft_entityframeworkcore",
       "_origin": "semantic",
@@ -8149,6 +8151,18 @@
       "type": "external"
     },
     {
+      "id": "newtonsoft_json_serialization",
+      "label": "newtonsoft_json_serialization",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Persistence",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "newtonsoft_json_serialization",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "system",
       "label": "system",
       "_origin": "semantic",
@@ -8161,35 +8175,11 @@
       "type": "external"
     },
     {
-      "id": "microsoft_aspnetcore_mvc",
-      "label": "microsoft_aspnetcore_mvc",
-      "_origin": "semantic",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_aspnetcore_mvc",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "newtonsoft_json_serialization",
-      "label": "newtonsoft_json_serialization",
-      "_origin": "semantic",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "newtonsoft_json_serialization",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "system_reflection",
       "label": "system_reflection",
       "_origin": "semantic",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
+      "community": 1,
+      "community_name": "Persistence",
       "external": true,
       "file_type": "concept",
       "norm_label": "system_reflection",
@@ -8200,8 +8190,8 @@
       "id": "system_runtime_compilerservices",
       "label": "system_runtime_compilerservices",
       "_origin": "semantic",
-      "community": 22,
-      "community_name": "EventsHubBaseController",
+      "community": 1,
+      "community_name": "Persistence",
       "external": true,
       "file_type": "concept",
       "norm_label": "system_runtime_compilerservices",
@@ -8212,11 +8202,23 @@
       "id": "web_src_index",
       "label": "web_src_index",
       "_origin": "semantic",
-      "community": 3,
-      "community_name": "package.json",
+      "community": 22,
+      "community_name": "web_src_index",
       "external": true,
       "file_type": "concept",
       "norm_label": "web_src_index",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "web_src_app_layout_index",
+      "label": "web_src_app_layout_index",
+      "_origin": "semantic",
+      "community": 31,
+      "community_name": "App.tsx",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "web_src_app_layout_index",
       "source_file": "",
       "type": "external"
     }
@@ -8927,6 +8929,66 @@
       "context": "call",
       "source_file": "tests/EventsHub.UnitTests/GlobalTestSetup.cs",
       "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_app_app",
+      "target": "web_src_app_layout_navbar_navbar",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_app_app",
+      "target": "web_src_features_activities_dashboard_activitiesdashboard_activitiesdashboard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard_activitiesdashboard",
+      "target": "web_src_features_activities_dashboard_activitylist_activitylist",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard_activitiesdashboard",
+      "target": "web_src_features_activities_details_activitydetail_activitydetail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitylist_activitylist",
+      "target": "web_src_features_activities_dashboard_activitycard_activitycard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -11578,6 +11640,66 @@
       "weight": 1.0
     },
     {
+      "source": "web_src_app_layout_app",
+      "target": "web_src_app_layout_navbar_navbar",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_app",
+      "target": "web_src_features_activities_dashboard_activitiesdashboard_activitiesdashboard",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard",
+      "target": "web_src_features_activities_details_activitydetail_activitydetail",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitylist",
+      "target": "web_src_features_activities_dashboard_activitycard_activitycard",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_main",
+      "target": "web_src_app_layout_app_app",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "web_eslint_config",
       "target": "ref_eslint_js",
       "relation": "imports_from",
@@ -11686,6 +11808,150 @@
       "weight": 1.0
     },
     {
+      "source": "web_src_app_layout_app",
+      "target": "web_src_app_layout_navbar",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_app",
+      "target": "web_src_features_activities_dashboard_activitiesdashboard",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/app/layout/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_navbar",
+      "target": "ref_mui_icons_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_navbar",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard",
+      "target": "web_src_features_activities_dashboard_activitylist",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard",
+      "target": "web_src_features_activities_details_activitydetail",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitycard",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitylist",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitylist",
+      "target": "web_src_features_activities_dashboard_activitycard",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_details_activitydetail",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_form_activityform",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/features/activities/form/ActivityForm.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "web_src_main",
       "target": "ref_react",
       "relation": "imports_from",
@@ -11711,7 +11977,7 @@
     },
     {
       "source": "web_src_main",
-      "target": "web_src_index",
+      "target": "web_src_app_layout_index",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11719,6 +11985,18 @@
       "context": "import",
       "source_file": "web/src/main.tsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_main",
+      "target": "web_src_app_layout_app",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/src/main.tsx",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -14770,7 +15048,139 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/src/app/layout/App.tsx",
-      "source_location": "L5",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_navbar",
+      "target": "web_src_app_layout_navbar_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_app_layout_navbar",
+      "target": "web_src_app_layout_navbar_navbar",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/app/layout/NavBar.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard",
+      "target": "web_src_features_activities_dashboard_activitiesdashboard_activitiesdashboard",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitiesdashboard",
+      "target": "web_src_features_activities_dashboard_activitiesdashboard_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/dashboard/ActivitiesDashboard.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitycard",
+      "target": "web_src_features_activities_dashboard_activitycard_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitycard",
+      "target": "web_src_features_activities_dashboard_activitycard_activitycard",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitylist",
+      "target": "web_src_features_activities_dashboard_activitylist_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_dashboard_activitylist",
+      "target": "web_src_features_activities_dashboard_activitylist_activitylist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_details_activitydetail",
+      "target": "web_src_features_activities_details_activitydetail_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_details_activitydetail",
+      "target": "web_src_features_activities_details_activitydetail_activitydetail",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_form_activityform",
+      "target": "web_src_features_activities_form_activityform_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/form/ActivityForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_src_features_activities_form_activityform",
+      "target": "web_src_features_activities_form_activityform_activityform",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/features/activities/form/ActivityForm.tsx",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -17936,83 +18346,6 @@
       "weight": 1.0
     },
     {
-      "source": "web_public_favicon_favicon",
-      "target": "web_public_favicon_lightning_bolt",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/favicon.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_public_icons_sprite",
-      "target": "web_public_icons_bluesky_icon",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_public_icons_sprite",
-      "target": "web_public_icons_discord_icon",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_public_icons_sprite",
-      "target": "web_public_icons_documentation_icon",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_public_icons_sprite",
-      "target": "web_public_icons_github_icon",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_public_icons_sprite",
-      "target": "web_public_icons_social_icon",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_public_icons_sprite",
-      "target": "web_public_icons_x_icon",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/public/icons.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
       "source": "web_readme_frontend_template",
       "target": "web_readme_react_compiler",
       "relation": "references",
@@ -18053,39 +18386,6 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_src_assets_hero_hero_illustration",
-      "target": "web_src_assets_hero_layered_platform",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/src/assets/hero.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_src_assets_react_logo",
-      "target": "web_src_assets_react_react",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/src/assets/react.svg",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "web_src_assets_vite_vite_logo",
-      "target": "web_src_assets_vite_vite",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/src/assets/vite.svg",
       "source_location": null,
       "weight": 1.0
     },
@@ -18272,5 +18572,5 @@
       "source_file": "docs/Arquitectura.md"
     }
   ],
-  "built_at_commit": "ffd9f8e3a6e673c0a9e5c84dcc876f01ea60d1d5"
+  "built_at_commit": "4d74aa5dec4c511634ef5c57016265159b484080"
 }

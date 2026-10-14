@@ -1,17 +1,17 @@
-# Graph Report - EventsHub  (2026-10-01)
+# Graph Report - EventsHub  (2026-10-13)
 
 ## Corpus Check
-- 72 files · ~63,168 words
+- 78 files · ~93,557 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 11 file(s) not represented in the graph (top: (none) 9, .nswag 1, .css 1)
 
 ## Summary
-- 572 nodes · 800 edges · 40 communities (27 shown, 13 thin omitted)
+- 576 nodes · 825 edges · 39 communities (28 shown, 11 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ffd9f8e3`
+- Built from commit: `4d74aa5d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,23 +34,22 @@
 - GlobalTestSetup
 - https
 - EventsHub.OpenApi
-- dependencies
+- @mui/material
 - WeatherForecast
 - Git in practice
-- Reusable social and documentation SVG icon sprite
-- EventsHubBaseController
+- ActivityForm.tsx
+- web_src_index
 - React + TypeScript + Vite template
 - Repository guidelines
 - Architecture documentation workflow
 - tsconfig.json
 - Events Hub HTML entry point
-- Purple and blue lightning favicon
-- Exploded stack hero illustration
-- React cyan atom logo
-- Vite
+- dependencies
+- App.tsx
 - index.d.ts
 - ActivitysHub ICI 2026
 - openspec-explore/SKILL.md
+- scripts
 
 ## God Nodes (most connected - your core abstractions)
 1. `Event` - 25 edges
@@ -71,10 +70,10 @@
   docs/guides/install-graphify-openspec.md → .codex/skills/graphify/SKILL.md
 - `GlobalTestSetup` --references--> `AppDbContext`  [EXTRACTED]
   tests/EventsHub.UnitTests/GlobalTestSetup.cs → src/EventsHub.Persistence/AppDbContext.cs
-- `Incremental migration` --semantically_similar_to--> `CQRS`  [INFERRED] [semantically similar]
-  docs/fundamentals/CleanArchitectureFundamentals.md → docs/fundamentals/CqrsFundamentals.md
 - `Repository and Unit of Work` --semantically_similar_to--> `DbContext`  [INFERRED] [semantically similar]
   docs/fundamentals/CleanArchitectureFundamentals.md → docs/fundamentals/DbContextFundamentals.md
+- `Optimistic concurrency` --semantically_similar_to--> `Optimistic concurrency tokens`  [INFERRED] [semantically similar]
+  docs/fundamentals/CqrsFundamentals.md → docs/fundamentals/DbContextFundamentals.md
 
 ## Import Cycles
 - None detected.
@@ -82,23 +81,23 @@
 ## Hyperedges (group relationships)
 - **Documented event query flow** — docs_arquitectura_react_frontend, docs_arquitectura_axios_json_requests, docs_arquitectura_eventscontroller, docs_arquitectura_appdbcontext, docs_arquitectura_sqlite [EXTRACTED 1.00]
 
-## Communities (40 total, 13 thin omitted)
+## Communities (39 total, 11 thin omitted)
 
 ### Community 0 - "EventsRpcClient"
 Cohesion: 0.07
 Nodes (37): EventsHub.OpenApi.Client, JsonSerializerSettings, CultureInfo, Exception, global_system, HttpClient, HttpContent, HttpRequestMessage (+29 more)
 
 ### Community 1 - "Persistence"
-Cohesion: 0.08
-Nodes (26): automapper, EventsHub.Persistence.Migrations, Persistence, EventsHub.Application.Events.Queries, Domain, EventsHub.Application.Events.Commands, EventsHub.UnitTests, EventsHub.Application.Core (+18 more)
+Cohesion: 0.06
+Nodes (32): automapper, EventsHub.API.Controllers, EventsHub.Persistence.Migrations, Persistence, EventsHub.Application.Events.Queries, Domain, EventsHub.Application.Events.Commands, EventsHub.UnitTests (+24 more)
 
 ### Community 2 - "Event"
 Cohesion: 0.05
 Nodes (52): Command, DbContext, DbContextOptions, DbSet, IMapper, IRequest, IRequestHandler, List (+44 more)
 
 ### Community 3 - "package.json"
-Cohesion: 0.06
-Nodes (35): axios, @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks (+27 more)
+Cohesion: 0.10
+Nodes (23): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+15 more)
 
 ### Community 4 - "Clean Architecture fundamentals"
 Cohesion: 0.11
@@ -113,8 +112,8 @@ Cohesion: 0.08
 Nodes (26): AutoMapper (13.0.1), coverlet.collector (6.0.4), MediatR (14.2.0), Microsoft.AspNetCore.Mvc.NewtonsoftJson (10.0.11), Microsoft.AspNetCore.OpenApi (10.0.11), Microsoft.EntityFrameworkCore.Design (10.0.11), Microsoft.EntityFrameworkCore.Sqlite (10.0.11), Microsoft.NET.Test.Sdk (17.14.0) (+18 more)
 
 ### Community 7 - "EventsController"
-Cohesion: 0.17
-Nodes (14): ActionResult, HttpDelete, HttpPost, HttpPut, IReadOnlyList, NotFoundObjectResult, ProducesResponseType, SetUp (+6 more)
+Cohesion: 0.10
+Nodes (22): ActionResult, ControllerBase, HttpDelete, HttpPost, HttpPut, IMediator, IReadOnlyList, NotFoundObjectResult (+14 more)
 
 ### Community 8 - "compilerOptions"
 Cohesion: 0.10
@@ -156,9 +155,9 @@ Nodes (9): ASPNETCORE_ENVIRONMENT, applicationUrl, commandName, dotnetRunMessage
 Cohesion: 0.22
 Nodes (8): ASPNETCORE_ENVIRONMENT, applicationUrl, commandName, environmentVariables, launchBrowser, profiles, EventsHub.OpenApi, $schema
 
-### Community 18 - "dependencies"
-Cohesion: 0.22
-Nodes (9): dependencies, axios, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react (+1 more)
+### Community 18 - "@mui/material"
+Cohesion: 0.26
+Nodes (9): @mui/material, ActivitiesDashboard(), Props, ActivityCard(), Props, ActivityList(), Props, ActivityDetail() (+1 more)
 
 ### Community 19 - "WeatherForecast"
 Cohesion: 0.25
@@ -167,14 +166,6 @@ Nodes (7): EventsHub.API, DateOnly, WeatherForecast, Date, Summary, TemperatureC
 ### Community 20 - "Git in practice"
 Cohesion: 0.43
 Nodes (8): Cherry pick, Git branches, Git commits, Git in practice, Merge, Pull requests, Squash, Stash
-
-### Community 21 - "Reusable social and documentation SVG icon sprite"
-Cohesion: 0.29
-Nodes (7): Bluesky butterfly logo, Discord controller mascot logo, Purple code documentation icon, GitHub Octocat logo, Purple person and star social icon, Reusable social and documentation SVG icon sprite, X social network logo
-
-### Community 22 - "EventsHubBaseController"
-Cohesion: 0.12
-Nodes (14): ControllerBase, EventsHub.API.Controllers, EventsHub.UnitTests.Controllers, IMediator, microsoft_aspnetcore_mvc, newtonsoft_json_serialization, EventsHubBaseController, Mediator (+6 more)
 
 ### Community 23 - "React + TypeScript + Vite template"
 Cohesion: 0.40
@@ -188,14 +179,26 @@ Nodes (4): Bruno HTTP collections, Frontend build and lint, NUnit SQLite tests, 
 Cohesion: 0.67
 Nodes (3): Approved documentation outline, Architecture documentation workflow, Discovery before documentation
 
+### Community 30 - "dependencies"
+Cohesion: 0.22
+Nodes (9): dependencies, axios, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react (+1 more)
+
+### Community 31 - "App.tsx"
+Cohesion: 0.23
+Nodes (9): axios, @fontsource/roboto, @mui/icons-material, react, react-dom, App(), web_src_app_layout_index, NavBar() (+1 more)
+
 ### Community 34 - "openspec-explore/SKILL.md"
 Cohesion: 0.17
 Nodes (11): Check for context, Ending Discovery, Guardrails, Handling Different Entry Points, OpenSpec Awareness, Planning a Change, The Stance, What You Don't Have To Do (+3 more)
 
+### Community 40 - "scripts"
+Cohesion: 0.40
+Nodes (5): scripts, build, dev, lint, preview
+
 ## Knowledge Gaps
-- **225 isolated node(s):** `The Stance`, `Planning a Change`, `What You Might Do`, `Check for context`, `When no change exists` (+220 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 284 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **216 isolated node(s):** `Props`, `Props`, `Props`, `Props`, `Props` (+211 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 276 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -206,11 +209,11 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `Graphify knowledge graph workflow` connect `Graphify knowledge graph workflow` to `Clean Architecture fundamentals`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `The Stance`, `Planning a Change`, `What You Might Do` to the rest of the system?**
-  _225 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Props`, `Props`, `Props` to the rest of the system?**
+  _216 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `EventsRpcClient` be split into smaller, more focused modules?**
   _Cohesion score 0.07373271889400922 - nodes in this community are weakly interconnected._
 - **Should `Persistence` be split into smaller, more focused modules?**
-  _Cohesion score 0.07716701902748414 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.061495457721872815 - nodes in this community are weakly interconnected._
 - **Should `Event` be split into smaller, more focused modules?**
   _Cohesion score 0.05021173623714459 - nodes in this community are weakly interconnected._
