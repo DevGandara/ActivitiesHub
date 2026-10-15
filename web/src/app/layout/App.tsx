@@ -48,6 +48,7 @@ function App() {
 
   const handleDeleteActivuty = (id: string) => {
     setActivities(activities.filter(act => act.id !== id));
+    if (selectedActivity && selectedActivity.id == id) setSelectedActivity(undefined)
   }
 
   return (
