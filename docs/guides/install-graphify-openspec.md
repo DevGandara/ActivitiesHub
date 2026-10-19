@@ -156,6 +156,7 @@ openspec init --tools claude
 ```
 
 This creates:
+
 - `openspec/specs/` — the current, agreed specs
 - `openspec/changes/archive/` — completed change proposals, archived
 - `.claude/skills/openspec-*/SKILL.md` — one skill file per OpenSpec
@@ -184,6 +185,7 @@ Claude Code session.
 ## Step 3 — Report back
 
 Once both are installed, summarize:
+
 - Graphify and OpenSpec CLI versions (`graphify --version`, `openspec --version`)
 - Whether `graphify-out/graph.html` renders a real graph of this repo
 - Whether `graphify hook status` shows the post-commit/post-checkout hooks installed
@@ -198,7 +200,7 @@ Once both are installed, summarize:
 - Both tools are installed **globally** on the machine running them — every
   contributor who wants to use `/graphify` or the OpenSpec workflow needs to
   run Step 1/Step 2's install commands themselves once. Only the
-  *initialized, repo-scoped* output (`graphify-out/`, `.graphifyignore`,
+  _initialized, repo-scoped_ output (`graphify-out/`, `.graphifyignore`,
   `openspec/`, `.claude/skills/...`) is meant to be committed.
 - `graphify hook install` writes to `.git/hooks/`, which git never tracks —
   so the auto-rebuild-on-commit behavior is also per-machine. Each

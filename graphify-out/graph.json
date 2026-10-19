@@ -33,9 +33,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "apiexception",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -52,9 +50,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "dateformatconverter",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -72,9 +68,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "eventsrpcclient",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -92,9 +86,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "ieventsrpcclient",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -112,9 +104,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "iweatherforecastrpcclient",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -132,9 +122,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "objectresponseresult",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -152,9 +140,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "weatherforecastrpcclient",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -171,9 +157,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s51"
-        ]
+        "scope_chain": ["s51"]
       },
       "norm_label": "eventshubbasecontroller",
       "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
@@ -190,9 +174,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s35"
-        ]
+        "scope_chain": ["s35"]
       },
       "norm_label": "weatherforecastcontroller",
       "source_file": "src/EventsHub.API/Controllers/WeatherForecastController.cs",
@@ -209,9 +191,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Core",
-        "scope_chain": [
-          "s36"
-        ]
+        "scope_chain": ["s36"]
       },
       "norm_label": "mappingprofiles",
       "source_file": "src/EventsHub.Application/Core/MappingProfiles.cs",
@@ -228,9 +208,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "createevent",
       "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
@@ -248,9 +226,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s38"
-        ]
+        "scope_chain": ["s38"]
       },
       "norm_label": "command",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
@@ -267,9 +243,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s38"
-        ]
+        "scope_chain": ["s38"]
       },
       "norm_label": "deleteevent",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
@@ -286,9 +260,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "geteventdetails",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
@@ -305,9 +277,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s91"
-        ]
+        "scope_chain": ["s91"]
       },
       "norm_label": "geteventlist",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
@@ -324,9 +294,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Persistence",
-        "scope_chain": [
-          "s17"
-        ]
+        "scope_chain": ["s17"]
       },
       "norm_label": "dbinitializer",
       "source_file": "src/EventsHub.Persistence/DbInitializer.cs",
@@ -343,9 +311,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests",
-        "scope_chain": [
-          "s60"
-        ]
+        "scope_chain": ["s60"]
       },
       "norm_label": "globaltestsetup",
       "source_file": "tests/EventsHub.UnitTests/GlobalTestSetup.cs",
@@ -363,9 +329,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "event",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -383,9 +347,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "weatherforecast",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -467,9 +429,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "weatherforecast",
       "source_file": "src/EventsHub.API/WeatherForecast.cs",
@@ -487,9 +447,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "command",
       "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
@@ -507,9 +465,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
@@ -527,9 +483,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s38"
-        ]
+        "scope_chain": ["s38"]
       },
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
@@ -547,9 +501,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s72"
-        ]
+        "scope_chain": ["s72"]
       },
       "norm_label": "command",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
@@ -566,9 +518,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s72"
-        ]
+        "scope_chain": ["s72"]
       },
       "norm_label": "editevent",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
@@ -586,9 +536,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s72"
-        ]
+        "scope_chain": ["s72"]
       },
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
@@ -606,9 +554,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
@@ -626,9 +572,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "query",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
@@ -646,9 +590,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s91"
-        ]
+        "scope_chain": ["s91"]
       },
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
@@ -666,9 +608,7 @@
       "metadata": {
         "is_nested_type": true,
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s91"
-        ]
+        "scope_chain": ["s91"]
       },
       "norm_label": "query",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
@@ -685,9 +625,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "event",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -704,9 +642,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Persistence",
-        "scope_chain": [
-          "s55"
-        ]
+        "scope_chain": ["s55"]
       },
       "norm_label": "appdbcontext",
       "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
@@ -724,9 +660,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s286"
-        ]
+        "scope_chain": ["s286"]
       },
       "norm_label": "initialcreate",
       "source_file": "src/EventsHub.Persistence/Migrations/20260917130757_InitialCreate.Designer.cs",
@@ -744,9 +678,7 @@
       "metadata": {
         "is_partial": true,
         "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s237"
-        ]
+        "scope_chain": ["s237"]
       },
       "norm_label": "appdbcontextmodelsnapshot",
       "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
@@ -789,9 +721,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s141"
-        ]
+        "scope_chain": ["s141"]
       },
       "norm_label": "eventscontroller",
       "source_file": "src/EventsHub.API/Controllers/EventsController.cs",
@@ -808,9 +738,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
-        "scope_chain": [
-          "s147"
-        ]
+        "scope_chain": ["s147"]
       },
       "norm_label": "eventscontrollertests",
       "source_file": "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs",
@@ -826,9 +754,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".tostring()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -844,9 +770,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".converttostring()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -862,9 +786,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".createserializersettings()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -880,9 +802,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "Append",
@@ -912,9 +832,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "Append",
@@ -944,9 +862,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".initialize()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -962,9 +878,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".preparerequest()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -980,9 +894,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".processresponse()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -998,9 +910,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "ReadAsStreamAsync",
@@ -1024,9 +934,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "ReadAsStringAsync",
@@ -1050,9 +958,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".readobjectresponseasync()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1068,9 +974,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".updatejsonserializersettings()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1086,9 +990,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".geteventbyidasync()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1104,9 +1006,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".geteventsasync()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1122,9 +1022,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".getasync()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1140,9 +1038,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".converttostring()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1158,9 +1054,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".createserializersettings()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1176,9 +1070,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "Append",
@@ -1208,9 +1100,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".initialize()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1226,9 +1116,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".preparerequest()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1244,9 +1132,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".processresponse()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1262,9 +1148,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "ReadAsStreamAsync",
@@ -1288,9 +1172,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ],
+        "scope_chain": ["s2158"],
         "unresolved_calls": [
           {
             "callee": "ReadAsStringAsync",
@@ -1314,9 +1196,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".readobjectresponseasync()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1332,9 +1212,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": ".updatejsonserializersettings()",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -1350,9 +1228,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s35"
-        ],
+        "scope_chain": ["s35"],
         "unresolved_calls": [
           {
             "callee": "Range",
@@ -1382,9 +1258,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Persistence",
-        "scope_chain": [
-          "s17"
-        ]
+        "scope_chain": ["s17"]
       },
       "norm_label": ".seeddataasync()",
       "source_file": "src/EventsHub.Persistence/DbInitializer.cs",
@@ -1400,9 +1274,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests",
-        "scope_chain": [
-          "s60"
-        ]
+        "scope_chain": ["s60"]
       },
       "norm_label": ".setup()",
       "source_file": "tests/EventsHub.UnitTests/GlobalTestSetup.cs",
@@ -1418,9 +1290,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests",
-        "scope_chain": [
-          "s60"
-        ]
+        "scope_chain": ["s60"]
       },
       "norm_label": ".teardown()",
       "source_file": "tests/EventsHub.UnitTests/GlobalTestSetup.cs",
@@ -1496,9 +1366,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": ".handle()",
       "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
@@ -1514,9 +1382,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s38"
-        ]
+        "scope_chain": ["s38"]
       },
       "norm_label": ".handle()",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
@@ -1532,9 +1398,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s72"
-        ],
+        "scope_chain": ["s72"],
         "unresolved_calls": [
           {
             "callee": "Map",
@@ -1558,9 +1422,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": ".handle()",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
@@ -1576,9 +1438,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s91"
-        ]
+        "scope_chain": ["s91"]
       },
       "norm_label": ".handle()",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
@@ -1594,9 +1454,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s286"
-        ],
+        "scope_chain": ["s286"],
         "unresolved_calls": [
           {
             "callee": "HasAnnotation",
@@ -1626,9 +1484,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
+        "scope_chain": ["s90"],
         "unresolved_calls": [
           {
             "callee": "DropTable",
@@ -1652,9 +1508,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
+        "scope_chain": ["s90"],
         "unresolved_calls": [
           {
             "callee": "CreateTable",
@@ -1678,9 +1532,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s237"
-        ],
+        "scope_chain": ["s237"],
         "unresolved_calls": [
           {
             "callee": "HasAnnotation",
@@ -1734,9 +1586,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s141"
-        ],
+        "scope_chain": ["s141"],
         "unresolved_calls": [
           {
             "callee": "Send",
@@ -1760,9 +1610,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s141"
-        ],
+        "scope_chain": ["s141"],
         "unresolved_calls": [
           {
             "callee": "Send",
@@ -1786,9 +1634,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s141"
-        ],
+        "scope_chain": ["s141"],
         "unresolved_calls": [
           {
             "callee": "Send",
@@ -1812,9 +1658,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s141"
-        ],
+        "scope_chain": ["s141"],
         "unresolved_calls": [
           {
             "callee": "Send",
@@ -1838,9 +1682,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s141"
-        ],
+        "scope_chain": ["s141"],
         "unresolved_calls": [
           {
             "callee": "Send",
@@ -1864,9 +1706,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
-        "scope_chain": [
-          "s147"
-        ],
+        "scope_chain": ["s147"],
         "unresolved_calls": [
           {
             "callee": "NewGuid",
@@ -1914,9 +1754,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
-        "scope_chain": [
-          "s147"
-        ],
+        "scope_chain": ["s147"],
         "unresolved_calls": [
           {
             "callee": "That",
@@ -1952,9 +1790,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
-        "scope_chain": [
-          "s147"
-        ],
+        "scope_chain": ["s147"],
         "unresolved_calls": [
           {
             "callee": "That",
@@ -1978,9 +1814,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
-        "scope_chain": [
-          "s147"
-        ]
+        "scope_chain": ["s147"]
       },
       "norm_label": ".setup()",
       "source_file": "tests/EventsHub.UnitTests/Controllers/EventsControllerTests.cs",
@@ -2176,9 +2010,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "headers",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2193,9 +2025,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "response",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2210,9 +2040,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "result",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2227,9 +2055,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "statuscode",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2244,9 +2070,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "baseurl",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2261,9 +2085,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "jsonserializersettings",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2278,9 +2100,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "readresponseasstring",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2295,9 +2115,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "object",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2312,9 +2130,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "text",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2329,9 +2145,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "baseurl",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2346,9 +2160,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "jsonserializersettings",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2363,9 +2175,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "readresponseasstring",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -2607,9 +2417,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API.Controllers",
-        "scope_chain": [
-          "s51"
-        ]
+        "scope_chain": ["s51"]
       },
       "norm_label": "mediator",
       "source_file": "src/EventsHub.API/Controllers/EventsHubBaseController.cs",
@@ -2701,9 +2509,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s38"
-        ]
+        "scope_chain": ["s38"]
       },
       "norm_label": "id",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
@@ -2839,9 +2645,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests",
-        "scope_chain": [
-          "s60"
-        ]
+        "scope_chain": ["s60"]
       },
       "norm_label": "appdbcontext",
       "source_file": "tests/EventsHub.UnitTests/GlobalTestSetup.cs",
@@ -3076,9 +2880,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "category",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3093,9 +2895,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "city",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3110,9 +2910,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "date",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3127,9 +2925,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "description",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3144,9 +2940,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "id",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3161,9 +2955,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "iscancelled",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3178,9 +2970,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "latitude",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3195,9 +2985,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "longitude",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3212,9 +3000,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "title",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3229,9 +3015,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "venue",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3246,9 +3030,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "date",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3263,9 +3045,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "summary",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3280,9 +3060,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "temperaturec",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -3297,9 +3075,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.OpenApi.Client",
-        "scope_chain": [
-          "s2158"
-        ]
+        "scope_chain": ["s2158"]
       },
       "norm_label": "temperaturef",
       "source_file": "src/src/EventsHub.OpenApi/Generated/EventsHubRpcClient.generated.cs",
@@ -4198,9 +3974,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "date",
       "source_file": "src/EventsHub.API/WeatherForecast.cs",
@@ -4215,9 +3989,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "summary",
       "source_file": "src/EventsHub.API/WeatherForecast.cs",
@@ -4232,9 +4004,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "temperaturec",
       "source_file": "src/EventsHub.API/WeatherForecast.cs",
@@ -4249,9 +4019,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.API",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "temperaturef",
       "source_file": "src/EventsHub.API/WeatherForecast.cs",
@@ -4387,9 +4155,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "event",
       "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
@@ -4448,9 +4214,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s72"
-        ]
+        "scope_chain": ["s72"]
       },
       "norm_label": "event",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
@@ -4487,9 +4251,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s53"
-        ]
+        "scope_chain": ["s53"]
       },
       "norm_label": "id",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
@@ -4537,9 +4299,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "category",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4554,9 +4314,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "city",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4571,9 +4329,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "date",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4588,9 +4344,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "description",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4605,9 +4359,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "id",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4622,9 +4374,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "iscancelled",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4639,9 +4389,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "latitude",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4656,9 +4404,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "longitude",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4673,9 +4419,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "title",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4690,9 +4434,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Domain",
-        "scope_chain": [
-          "s0"
-        ]
+        "scope_chain": ["s0"]
       },
       "norm_label": "venue",
       "source_file": "src/EventsHub.Domain/Event.cs",
@@ -4707,9 +4449,7 @@
       "file_type": "code",
       "metadata": {
         "namespace": "Persistence",
-        "scope_chain": [
-          "s55"
-        ]
+        "scope_chain": ["s55"]
       },
       "norm_label": "events",
       "source_file": "src/EventsHub.Persistence/AppDbContext.cs",

@@ -23,17 +23,17 @@ El host OpenAPI es una herramienta auxiliar que se ejecuta por separado. El fron
 
 Las rutas de esta tabla parten de la raíz del repositorio.
 
-| Componente | Ubicación | Tecnología y responsabilidad |
-| --- | --- | --- |
-| API | `src/EventsHub.API` | C#, .NET 10, ASP.NET Core; HTTP, CORS, inyección de dependencias y arranque de la base de datos |
-| Application | `src/EventsHub.Application` | Biblioteca .NET 10; estructura reservada para lógica de aplicación, actualmente sin implementación |
-| Domain | `src/EventsHub.Domain` | Biblioteca .NET 10; entidad `Event`, sin dependencias de otros proyectos |
-| Persistence | `src/EventsHub.Persistence` | EF Core SQLite 10.0.11; contexto, migraciones y datos iniciales |
-| OpenAPI | `src/EventsHub.OpenApi` | ASP.NET Core, NSwag 14.7.1 y Newtonsoft.Json; generación y presentación del contrato |
-| Web | `web` | React 19, TypeScript 6, Vite 8, Material UI 9, Emotion y Axios |
-| Pruebas de controladores | `tests/EventsHub.UnitTests` | NUnit 4, adaptador NUnit, Microsoft.NET.Test.Sdk y Coverlet; usan SQLite real |
-| Pruebas HTTP | `tests/EventsHub.IntegrationTest` | Colección Bruno en YAML con entorno local |
-| Artefactos OpenAPI | `src/openapi`, `src/nswag`, `src/src/EventsHub.OpenApi/Generated` | Contrato JSON, configuración y cliente C# generado |
+| Componente               | Ubicación                                                         | Tecnología y responsabilidad                                                                       |
+| ------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| API                      | `src/EventsHub.API`                                               | C#, .NET 10, ASP.NET Core; HTTP, CORS, inyección de dependencias y arranque de la base de datos    |
+| Application              | `src/EventsHub.Application`                                       | Biblioteca .NET 10; estructura reservada para lógica de aplicación, actualmente sin implementación |
+| Domain                   | `src/EventsHub.Domain`                                            | Biblioteca .NET 10; entidad `Event`, sin dependencias de otros proyectos                           |
+| Persistence              | `src/EventsHub.Persistence`                                       | EF Core SQLite 10.0.11; contexto, migraciones y datos iniciales                                    |
+| OpenAPI                  | `src/EventsHub.OpenApi`                                           | ASP.NET Core, NSwag 14.7.1 y Newtonsoft.Json; generación y presentación del contrato               |
+| Web                      | `web`                                                             | React 19, TypeScript 6, Vite 8, Material UI 9, Emotion y Axios                                     |
+| Pruebas de controladores | `tests/EventsHub.UnitTests`                                       | NUnit 4, adaptador NUnit, Microsoft.NET.Test.Sdk y Coverlet; usan SQLite real                      |
+| Pruebas HTTP             | `tests/EventsHub.IntegrationTest`                                 | Colección Bruno en YAML con entorno local                                                          |
+| Artefactos OpenAPI       | `src/openapi`, `src/nswag`, `src/src/EventsHub.OpenApi/Generated` | Contrato JSON, configuración y cliente C# generado                                                 |
 
 La solución [EventsHub.slnx](../EventsHub.slnx) contiene los cinco proyectos del backend y el proyecto NUnit. El frontend y la colección Bruno se ejecutan por separado.
 
@@ -139,43 +139,43 @@ La consulta carga todos los eventos, sin paginación, filtros ni orden explícit
 
 ### Entidad Event
 
-| Propiedad C# | Tipo C# | Columna SQLite | Observaciones |
-| --- | --- | --- | --- |
-| `Id` | `string` | `TEXT`, clave primaria | GUID convertido a texto por defecto |
-| `Title` | `string` | `TEXT` | Propiedad `required` |
-| `Date` | `DateTime` | `TEXT` | Fecha del evento |
-| `Description` | `string` | `TEXT` | Propiedad `required` |
-| `Category` | `string` | `TEXT` | Texto libre; no hay catálogo ni enum |
-| `IsCancelled` | `bool` | `INTEGER` | `false` por defecto |
-| `City`, `Venue` | `string` | `TEXT` | Propiedades `required` |
-| `Latitude`, `Longitude` | `string` | `TEXT` | Propiedades `required`; coordenadas almacenadas como texto |
+| Propiedad C#            | Tipo C#    | Columna SQLite         | Observaciones                                              |
+| ----------------------- | ---------- | ---------------------- | ---------------------------------------------------------- |
+| `Id`                    | `string`   | `TEXT`, clave primaria | GUID convertido a texto por defecto                        |
+| `Title`                 | `string`   | `TEXT`                 | Propiedad `required`                                       |
+| `Date`                  | `DateTime` | `TEXT`                 | Fecha del evento                                           |
+| `Description`           | `string`   | `TEXT`                 | Propiedad `required`                                       |
+| `Category`              | `string`   | `TEXT`                 | Texto libre; no hay catálogo ni enum                       |
+| `IsCancelled`           | `bool`     | `INTEGER`              | `false` por defecto                                        |
+| `City`, `Venue`         | `string`   | `TEXT`                 | Propiedades `required`                                     |
+| `Latitude`, `Longitude` | `string`   | `TEXT`                 | Propiedades `required`; coordenadas almacenadas como texto |
 
 La migración define todas las columnas como no anulables. `required` expresa una obligación de inicialización en C#; el modelo no contiene validaciones de negocio explícitas. La API serializa nombres en camelCase, por ejemplo `isCancelled`.
 
 ### Endpoints implementados
 
-| Método | Ruta utilizada por los clientes | Resultado |
-| --- | --- | --- |
-| GET | `/api/v1/events` | `200`, array de eventos |
-| GET | `/api/v1/events/{id}` | `200`, evento; `404` si no existe |
-| GET | `/api/v1/weatherforecast` | `200`, cinco pronósticos generados con valores aleatorios |
+| Método | Ruta utilizada por los clientes | Resultado                                                 |
+| ------ | ------------------------------- | --------------------------------------------------------- |
+| GET    | `/api/v1/events`                | `200`, array de eventos                                   |
+| GET    | `/api/v1/events/{id}`           | `200`, evento; `404` si no existe                         |
+| GET    | `/api/v1/weatherforecast`       | `200`, cinco pronósticos generados con valores aleatorios |
 
 Las rutas se construyen con el nombre del controlador; el documento OpenAPI las representa como `Events` y `WeatherForecast`. Los clientes del repositorio usan minúsculas. No hay endpoints POST, PUT, PATCH o DELETE ni autenticación o autorización configuradas.
 
 ## 6. Configuración y comportamiento transversal
 
-| Aspecto | Implementación actual |
-| --- | --- |
-| Conexión | `ConnectionStrings:SqliteConnection` en los archivos de configuración de la API: `Data source = eventshub.db` |
-| Ubicación de SQLite | Ruta relativa al directorio de trabajo del proceso; no es una ruta absoluta compartida por todos los componentes |
-| Arranque | Aplica migraciones y datos iniciales antes de `Run()`, sin limitarlo al entorno de desarrollo |
+| Aspecto                 | Implementación actual                                                                                                   |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Conexión                | `ConnectionStrings:SqliteConnection` en los archivos de configuración de la API: `Data source = eventshub.db`           |
+| Ubicación de SQLite     | Ruta relativa al directorio de trabajo del proceso; no es una ruta absoluta compartida por todos los componentes        |
+| Arranque                | Aplica migraciones y datos iniciales antes de `Run()`, sin limitarlo al entorno de desarrollo                           |
 | Error de inicialización | Registra la excepción con `LogError` y continúa hacia el arranque HTTP; el proceso puede iniciar sin una base preparada |
-| CORS | Permite cualquier cabecera y método desde `http://localhost:3000` y `https://localhost:3000` |
-| API local | Perfil `https`: `https://localhost:5001` |
-| Web local | Puerto solicitado `3000`, HTTPS mediante mkcert |
-| OpenAPI local | Perfil `EventsHub.OpenApi`: `https://localhost:5011` y `http://localhost:5010` |
-| Errores HTTP | `NotFound` explícito para detalle inexistente; no hay middleware propio para unificar errores |
-| Convenciones | Métodos asíncronos con sufijo `Async`, nombres PascalCase en C#, componentes React en PascalCase |
+| CORS                    | Permite cualquier cabecera y método desde `http://localhost:3000` y `https://localhost:3000`                            |
+| API local               | Perfil `https`: `https://localhost:5001`                                                                                |
+| Web local               | Puerto solicitado `3000`, HTTPS mediante mkcert                                                                         |
+| OpenAPI local           | Perfil `EventsHub.OpenApi`: `https://localhost:5011` y `http://localhost:5010`                                          |
+| Errores HTTP            | `NotFound` explícito para detalle inexistente; no hay middleware propio para unificar errores                           |
+| Convenciones            | Métodos asíncronos con sufijo `Async`, nombres PascalCase en C#, componentes React en PascalCase                        |
 
 Los puertos del frontend, su URL de Axios, el entorno Bruno y CORS deben mantenerse alineados. Si Vite selecciona otro puerto por estar ocupado `3000`, ese origen no estará permitido por la configuración actual. Los certificados locales deben ser aceptados por el navegador para que las peticiones HTTPS funcionen.
 
@@ -222,17 +222,17 @@ Para las pruebas HTTP, abrir la colección Bruno, seleccionar `local` y mantener
 
 Estas observaciones describen diferencias verificables en los archivos; no representan cambios ya realizados en la aplicación.
 
-| Hallazgo | Implicación y posible evolución |
-| --- | --- |
-| `Application` sin implementación y controladores ligados a EF Core | Si crece la lógica, definir casos de uso y sus fronteras antes de añadir comportamiento a los controladores |
-| La API expone `Event` directamente | Los cambios del modelo pueden afectar al contrato; considerar DTOs cuando se necesite evolucionar ambas partes por separado |
-| `Activity.latitude` y `longitude` son `number`, mientras el backend usa `string` | El tipo TypeScript no coincide con el JSON real; alinear el contrato antes de usar coordenadas en cálculos |
-| URL de API fija y ausencia de estados de error/carga | La interfaz requiere cambios de código para apuntar a otro entorno y no explica fallos de red al usuario |
-| Listado sin paginación ni orden | Devuelve la tabla completa y no garantiza un orden funcional |
-| Host OpenAPI sin registro de `AppDbContext` | Debe resolverse su dependencia para poder activar `EventsController`; ver ficha del host |
-| Cliente generado dentro de `src/src` | La ruta de salida está fuera del proyecto previsto; revisar la configuración antes de integrarlo |
-| OpenAPI guardado solo declara `200` para el detalle | El contrato publicado no refleja el `404` implementado |
-| Pruebas NUnit con SQLite persistente y contexto compartido | No son pruebas unitarias aisladas; su estado depende de la base disponible |
-| Referencia de OpenAPI escrita como `EventsHub.Api` frente al directorio `EventsHub.API` | La diferencia de mayúsculas puede afectar la compilación en sistemas con rutas sensibles a mayúsculas |
+| Hallazgo                                                                                | Implicación y posible evolución                                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `Application` sin implementación y controladores ligados a EF Core                      | Si crece la lógica, definir casos de uso y sus fronteras antes de añadir comportamiento a los controladores                 |
+| La API expone `Event` directamente                                                      | Los cambios del modelo pueden afectar al contrato; considerar DTOs cuando se necesite evolucionar ambas partes por separado |
+| `Activity.latitude` y `longitude` son `number`, mientras el backend usa `string`        | El tipo TypeScript no coincide con el JSON real; alinear el contrato antes de usar coordenadas en cálculos                  |
+| URL de API fija y ausencia de estados de error/carga                                    | La interfaz requiere cambios de código para apuntar a otro entorno y no explica fallos de red al usuario                    |
+| Listado sin paginación ni orden                                                         | Devuelve la tabla completa y no garantiza un orden funcional                                                                |
+| Host OpenAPI sin registro de `AppDbContext`                                             | Debe resolverse su dependencia para poder activar `EventsController`; ver ficha del host                                    |
+| Cliente generado dentro de `src/src`                                                    | La ruta de salida está fuera del proyecto previsto; revisar la configuración antes de integrarlo                            |
+| OpenAPI guardado solo declara `200` para el detalle                                     | El contrato publicado no refleja el `404` implementado                                                                      |
+| Pruebas NUnit con SQLite persistente y contexto compartido                              | No son pruebas unitarias aisladas; su estado depende de la base disponible                                                  |
+| Referencia de OpenAPI escrita como `EventsHub.Api` frente al directorio `EventsHub.API` | La diferencia de mayúsculas puede afectar la compilación en sistemas con rutas sensibles a mayúsculas                       |
 
 La guía [OpenApiSetup.md](OpenApiSetup.md) conserva instrucciones históricas: afirma que faltan proyectos y el manifiesto de herramientas que ahora existen, usa rutas diferentes y describe controladores sin dependencias. Para conocer el estado actual, deben prevalecer los archivos enlazados en este documento. Las notas [DbContextFundamentals.md](DbContextFundamentals.md) y [SoftwareTestingFundamentals.md](SoftwareTestingFundamentals.md) sirven como material complementario de persistencia y pruebas.
