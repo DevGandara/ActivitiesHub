@@ -1,17 +1,17 @@
-# Graph Report - EventsHub  (2026-10-13)
+# Graph Report - EventsHub  (2026-10-19)
 
 ## Corpus Check
-- 78 files · ~93,557 words
+- 79 files · ~99,201 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 11 file(s) not represented in the graph (top: (none) 9, .nswag 1, .css 1)
+- Unclassified: 12 file(s) not represented in the graph (top: (none) 10, .nswag 1, .css 1)
 
 ## Summary
-- 576 nodes · 825 edges · 39 communities (28 shown, 11 thin omitted)
+- 638 nodes · 886 edges · 41 communities (31 shown, 10 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4d74aa5d`
+- Built from commit: `8fdae768`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,19 +31,21 @@
 - compilerOptions
 - DbContext fundamentals
 - Local baseUrl: https://localhost:5001/api/v1
-- GlobalTestSetup
+- Part 2: .NET only (Husky.Net)
 - https
 - EventsHub.OpenApi
 - @mui/material
 - WeatherForecast
 - Git in practice
-- ActivityForm.tsx
+- 20260917130757_InitialCreate.Designer.cs
 - web_src_index
 - React + TypeScript + Vite template
 - Repository guidelines
 - Architecture documentation workflow
 - tsconfig.json
 - Events Hub HTML entry point
+- Part 1: .NET + npm in the same repo (e.g. EventsHub)
+- Part 3: npm only, `package.json` in the repo root (Husky v9)
 - dependencies
 - App.tsx
 - index.d.ts
@@ -57,11 +59,11 @@
 3. `WeatherForecastRpcClient` - 19 edges
 4. `compilerOptions` - 18 edges
 5. `compilerOptions` - 15 edges
-6. `EventsHub architecture snapshot September 2026` - 14 edges
-7. `ApiException` - 13 edges
-8. `Event` - 13 edges
-9. `AppDbContext` - 13 edges
-10. `Graphify knowledge graph workflow` - 13 edges
+6. `Part 1: .NET + npm in the same repo (e.g. EventsHub)` - 14 edges
+7. `Part 2: .NET only (Husky.Net)` - 14 edges
+8. `Part 3: npm only, `package.json` in the repo root (Husky v9)` - 14 edges
+9. `EventsHub architecture snapshot September 2026` - 14 edges
+10. `Part 4: npm only, `package.json` in a subfolder (Husky v9)` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Replace on reextract` --semantically_similar_to--> `Read model projection`  [INFERRED] [semantically similar]
@@ -81,19 +83,19 @@
 ## Hyperedges (group relationships)
 - **Documented event query flow** — docs_arquitectura_react_frontend, docs_arquitectura_axios_json_requests, docs_arquitectura_eventscontroller, docs_arquitectura_appdbcontext, docs_arquitectura_sqlite [EXTRACTED 1.00]
 
-## Communities (39 total, 11 thin omitted)
+## Communities (41 total, 10 thin omitted)
 
 ### Community 0 - "EventsRpcClient"
 Cohesion: 0.07
 Nodes (37): EventsHub.OpenApi.Client, JsonSerializerSettings, CultureInfo, Exception, global_system, HttpClient, HttpContent, HttpRequestMessage (+29 more)
 
 ### Community 1 - "Persistence"
-Cohesion: 0.06
-Nodes (32): automapper, EventsHub.API.Controllers, EventsHub.Persistence.Migrations, Persistence, EventsHub.Application.Events.Queries, Domain, EventsHub.Application.Events.Commands, EventsHub.UnitTests (+24 more)
+Cohesion: 0.05
+Nodes (38): automapper, ControllerBase, EventsHub.API.Controllers, Persistence, EventsHub.Application.Events.Queries, Domain, EventsHub.Application.Events.Commands, EventsHub.UnitTests (+30 more)
 
 ### Community 2 - "Event"
-Cohesion: 0.05
-Nodes (52): Command, DbContext, DbContextOptions, DbSet, IMapper, IRequest, IRequestHandler, List (+44 more)
+Cohesion: 0.06
+Nodes (46): Command, DbContext, DbContextOptions, DbSet, IMapper, IRequest, IRequestHandler, List (+38 more)
 
 ### Community 3 - "package.json"
 Cohesion: 0.10
@@ -112,8 +114,8 @@ Cohesion: 0.08
 Nodes (26): AutoMapper (13.0.1), coverlet.collector (6.0.4), MediatR (14.2.0), Microsoft.AspNetCore.Mvc.NewtonsoftJson (10.0.11), Microsoft.AspNetCore.OpenApi (10.0.11), Microsoft.EntityFrameworkCore.Design (10.0.11), Microsoft.EntityFrameworkCore.Sqlite (10.0.11), Microsoft.NET.Test.Sdk (17.14.0) (+18 more)
 
 ### Community 7 - "EventsController"
-Cohesion: 0.10
-Nodes (22): ActionResult, ControllerBase, HttpDelete, HttpPost, HttpPut, IMediator, IReadOnlyList, NotFoundObjectResult (+14 more)
+Cohesion: 0.17
+Nodes (14): ActionResult, HttpDelete, HttpPost, HttpPut, IReadOnlyList, NotFoundObjectResult, ProducesResponseType, SetUp (+6 more)
 
 ### Community 8 - "compilerOptions"
 Cohesion: 0.10
@@ -143,9 +145,9 @@ Nodes (20): AsNoTracking, Change tracking, DbContext, DbContext fundamentals, Db
 Cohesion: 0.29
 Nodes (11): Local baseUrl: https://localhost:5001/api/v1, Create event: POST /events, asserts HTTP 200, Edit event: PUT /events, asserts HTTP 200, Event fixture 02ad363b-a2ba-4102-b98c-7a80745be581, Get existing event: GET /events/:eventId, asserts HTTP 200, Get missing event: GET /events/non-existing-eventId, asserts HTTP 404, List events: GET /events, asserts HTTP 200 and array, Events request folder (+3 more)
 
-### Community 15 - "GlobalTestSetup"
-Cohesion: 0.22
-Nodes (7): OneTimeSetUp, OneTimeTearDown, Task, DbInitializer, Task, GlobalTestSetup, AppDbContext
+### Community 15 - "Part 2: .NET only (Husky.Net)"
+Cohesion: 0.06
+Nodes (31): How to use this guide, Installing Husky in a Project: .NET and npm, Optional: add Prettier (code formatting), Part 2: .NET only (Husky.Net), Part 4: npm only, `package.json` in a subfolder (Husky v9), Skipping hooks (use sparingly), Skipping hooks (use sparingly), Step 10: Commit the Husky files (+23 more)
 
 ### Community 16 - "https"
 Cohesion: 0.20
@@ -156,8 +158,8 @@ Cohesion: 0.22
 Nodes (8): ASPNETCORE_ENVIRONMENT, applicationUrl, commandName, environmentVariables, launchBrowser, profiles, EventsHub.OpenApi, $schema
 
 ### Community 18 - "@mui/material"
-Cohesion: 0.26
-Nodes (9): @mui/material, ActivitiesDashboard(), Props, ActivityCard(), Props, ActivityList(), Props, ActivityDetail() (+1 more)
+Cohesion: 0.21
+Nodes (11): @mui/material, ActivitiesDashboard(), Props, ActivityCard(), Props, ActivityList(), Props, ActivityDetail() (+3 more)
 
 ### Community 19 - "WeatherForecast"
 Cohesion: 0.25
@@ -166,6 +168,10 @@ Nodes (7): EventsHub.API, DateOnly, WeatherForecast, Date, Summary, TemperatureC
 ### Community 20 - "Git in practice"
 Cohesion: 0.43
 Nodes (8): Cherry pick, Git branches, Git commits, Git in practice, Merge, Pull requests, Squash, Stash
+
+### Community 21 - "20260917130757_InitialCreate.Designer.cs"
+Cohesion: 0.12
+Nodes (15): EventsHub.Persistence.Migrations, microsoft_entityframeworkcore_infrastructure, microsoft_entityframeworkcore_migrations, microsoft_entityframeworkcore_storage_valueconversion, Migration, MigrationBuilder, ModelSnapshot, DateTime (+7 more)
 
 ### Community 23 - "React + TypeScript + Vite template"
 Cohesion: 0.40
@@ -179,12 +185,20 @@ Nodes (4): Bruno HTTP collections, Frontend build and lint, NUnit SQLite tests, 
 Cohesion: 0.67
 Nodes (3): Approved documentation outline, Architecture documentation workflow, Discovery before documentation
 
+### Community 28 - "Part 1: .NET + npm in the same repo (e.g. EventsHub)"
+Cohesion: 0.13
+Nodes (15): Optional: add Prettier (code formatting), Part 1: .NET + npm in the same repo (e.g. EventsHub), Skipping hooks (use sparingly), Step 10: Commit the Husky files, Step 11: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Install Husky.Net as a local tool, Step 3: Install the Git hooks (+7 more)
+
+### Community 29 - "Part 3: npm only, `package.json` in the repo root (Husky v9)"
+Cohesion: 0.13
+Nodes (15): Optional: add Prettier (code formatting), Part 3: npm only, `package.json` in the repo root (Husky v9), Skipping hooks (use sparingly), Step 10: Commit the Husky files, Step 11: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Make sure `package.json` and `.gitignore` exist, Step 3: Install Husky (+7 more)
+
 ### Community 30 - "dependencies"
 Cohesion: 0.22
 Nodes (9): dependencies, axios, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react (+1 more)
 
 ### Community 31 - "App.tsx"
-Cohesion: 0.23
+Cohesion: 0.21
 Nodes (9): axios, @fontsource/roboto, @mui/icons-material, react, react-dom, App(), web_src_app_layout_index, NavBar() (+1 more)
 
 ### Community 34 - "openspec-explore/SKILL.md"
@@ -196,24 +210,24 @@ Cohesion: 0.40
 Nodes (5): scripts, build, dev, lint, preview
 
 ## Knowledge Gaps
-- **216 isolated node(s):** `Props`, `Props`, `Props`, `Props`, `Props` (+211 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 276 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **269 isolated node(s):** `How to use this guide`, `Where to run the commands (read this once)`, `Step 1: Check prerequisites`, `Step 2: Install Husky.Net as a local tool`, `Step 3: Install the Git hooks` (+264 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 328 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Event` connect `Event` to `EventsController`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
-- **Why does `AppDbContext` connect `Event` to `Persistence`, `GlobalTestSetup`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **Why does `Event` connect `Event` to `Persistence`, `EventsController`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+- **Why does `AppDbContext` connect `Event` to `Persistence`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `Graphify knowledge graph workflow` connect `Graphify knowledge graph workflow` to `Clean Architecture fundamentals`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `Props`, `Props`, `Props` to the rest of the system?**
-  _216 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **What connects `How to use this guide`, `Where to run the commands (read this once)`, `Step 1: Check prerequisites` to the rest of the system?**
+  _269 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `EventsRpcClient` be split into smaller, more focused modules?**
   _Cohesion score 0.07373271889400922 - nodes in this community are weakly interconnected._
 - **Should `Persistence` be split into smaller, more focused modules?**
-  _Cohesion score 0.061495457721872815 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0514216575922565 - nodes in this community are weakly interconnected._
 - **Should `Event` be split into smaller, more focused modules?**
-  _Cohesion score 0.05021173623714459 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05647058823529412 - nodes in this community are weakly interconnected._
