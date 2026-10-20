@@ -1,4 +1,4 @@
-﻿ {
+﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
     "https": {
@@ -9,6 +9,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
+    }
   }
 }

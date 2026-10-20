@@ -8,7 +8,7 @@ http:
   url: "{{baseUrl}}/events/:eventId"
   params:
     - name: eventId
-      value: 13396730-117f-4d6d-8019-c9bdde3720db
+      value: 02ad363b-a2ba-4102-b98c-7a80745be581
       type: path
   auth: inherit
 
