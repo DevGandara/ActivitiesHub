@@ -64,10 +64,14 @@ export default function ActivityForm({ closeForm, activity }: Props) {
         />
         <TextField
           label="Date"
-          type="datetime-local"
+          type="date"
           fullWidth
           name="date"
-          defaultValue={activity?.date}
+          defaultValue={
+            activity?.date
+              ? new Date(activity.date).toISOString().split('T')[0]
+              : new Date().toISOString().split('T')[0]
+          }
         />
         <TextField
           label="City"
