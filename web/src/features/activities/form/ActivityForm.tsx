@@ -7,7 +7,7 @@ type Props = {
 }
 
 export default function ActivityForm({ closeForm, activity }: Props) {
-  const { updateActivity } = useActivities()
+  const { updateActivity, createActivity } = useActivities()
 
   const handleSubmit = async (event: React.SubmitEvent<HTMLFormElement>) => {
     console.log(activity)
@@ -20,13 +20,12 @@ export default function ActivityForm({ closeForm, activity }: Props) {
 
     if (activity) {
       data.id = activity.id
-      await updateActivity.mutateAsync({
-        ...activity,
-        ...data,
-        id: activity.id,
-      } as Activity)
-      closeForm()
+      await updateActivity.mutateAsync(data as unknown as Activity)
+    } else {
+      await createActivity.mutateAsync(data as unknown as Activity)
     }
+
+    closeForm()
   }
 
   return (
@@ -95,7 +94,7 @@ export default function ActivityForm({ closeForm, activity }: Props) {
             color="success"
             variant="contained"
             type="submit"
-            loading={updateActivity.isPending}
+            loading={updateActivity.isPending || createActivity.isPending}
           >
             Submit
           </Button>
