@@ -4,11 +4,11 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  Button,
   Container,
   MenuItem,
   MenuList,
 } from '@mui/material'
+import { NavLink } from 'react-router'
 
 export default function NavBar() {
   return (
@@ -20,7 +20,11 @@ export default function NavBar() {
         <Container maxWidth="xl">
           <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
             <MenuList>
-              <MenuItem sx={{ display: 'flex', gap: 2 }}>
+              <MenuItem
+                component={NavLink}
+                to="/"
+                sx={{ display: 'flex', gap: 2 }}
+              >
                 <Group fontSize="large" />
                 <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
                   Activities Hub
@@ -28,24 +32,22 @@ export default function NavBar() {
               </MenuItem>
             </MenuList>
             <MenuList disablePadding sx={{ display: 'flex' }}>
-              <MenuItem sx={{ fontSize: '1.2rem', textTransform: 'uppercase' }}>
+              <MenuItem
+                component={NavLink}
+                to="/activities"
+                sx={{ fontSize: '1.2rem', textTransform: 'uppercase' }}
+              >
                 Activities
               </MenuItem>
-              <MenuItem sx={{ fontSize: '1.2rem', textTransform: 'uppercase' }}>
-                About
-              </MenuItem>
-              <MenuItem sx={{ fontSize: '1.2rem', textTransform: 'uppercase' }}>
-                Contact
+              <MenuItem
+                component={NavLink}
+                to="/createActivity"
+                sx={{ fontSize: '1.2rem', textTransform: 'uppercase' }}
+              >
+                Create activity
               </MenuItem>
             </MenuList>
-            <Button
-              size="large"
-              variant="contained"
-              color="warning"
-              onClick={() => {}}
-            >
-              Create activity
-            </Button>
+            User Menu
           </Toolbar>
         </Container>
       </AppBar>
