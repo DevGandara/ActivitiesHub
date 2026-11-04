@@ -34,7 +34,7 @@ export default function NavBar() {
             </MenuList>
             <MenuList disablePadding sx={{ display: 'flex' }}>
               <MenuItemLink to="/activities">Activities</MenuItemLink>
-              <MenuItemLink to="/create-activity">Create Activity</MenuItemLink>
+              <MenuItemLink to="/createActivity">Create Activity</MenuItemLink>
             </MenuList>
             User Menu
           </Toolbar>
