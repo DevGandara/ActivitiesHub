@@ -8,6 +8,7 @@ import {
   Typography,
 } from '@mui/material'
 import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css'
 
 export default function ActivityFilters() {
   return (
