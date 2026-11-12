@@ -1,29 +1,29 @@
-using AutoMapper;
+
 using Domain;
+using EventsHub.Application.Core.Mapping;
 using MediatR;
 using Persistence;
 
-namespace EventsHub.Application.Events.Commands
+namespace EventsHub.Application.Events.Commands;
+
+public class EditEvent
 {
-    public class EditEvent
+    public class Command : IRequest
     {
-        public class Command : IRequest
-        {
-            public required Event Event {get; set;}
-        }
+        public required Event Event { get; set; }
+    }
 
-        public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Command>
+    public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Command>
+    {
+        public async Task Handle(Command request, CancellationToken cancellationToken)
         {
-            public async Task Handle(Command request, CancellationToken cancellationToken)
-            {
-                var @event = await context.Events
-                    .FindAsync([request.Event.Id], cancellationToken)
-                    ?? throw new Exception("Event not found");
-                
-                mapper.Map(request.Event, @event);
+            var @event = await context.Events
+                .FindAsync([request.Event.Id], cancellationToken)
+                ?? throw new Exception("Event not found");
 
-                await context.SaveChangesAsync(cancellationToken);
-            }
+            mapper.Map(request.Event, @event);
+
+            await context.SaveChangesAsync(cancellationToken);
         }
     }
 }
