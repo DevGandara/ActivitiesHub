@@ -1,13 +1,11 @@
-using AutoMapper;
 using Domain;
+using EventsHub.Application.Core.Mapping;
+namespace EventsHub.Application.Core;
 
-namespace EventsHub.Application.Core
+public class MappingProfiles : Profile
 {
-    public class MappingProfiles : Profile
+    public MappingProfiles()
     {
-        public MappingProfiles()
-        {
-            CreateMap<Event, Event>();
-        }
+        CreateMap<Event, Event>();
     }
 }
