@@ -1,27 +1,26 @@
 using MediatR;
 using Persistence;
 
-namespace EventsHub.Application.Events.Commands
+namespace EventsHub.Application.Events.Commands;
+
+public class DeleteEvent
 {
-    public class DeleteEvent
+    public class Command : IRequest
     {
-        public class Command : IRequest
+        public required string Id { get; set; }
+    }
+
+    public class Handler(AppDbContext context) : IRequestHandler<Command>
+    {
+        public async Task Handle(Command request, CancellationToken cancellationToken)
         {
-            public required string Id {get; set;}
-        }
+            var @event = await context.Events
+                .FindAsync([request.Id], cancellationToken)
+                ?? throw new Exception("Event not found");
 
-        public class Handler(AppDbContext context) : IRequestHandler<Command>
-        {
-            public async Task Handle(Command request, CancellationToken cancellationToken)
-            {
-                var @event = await context.Events
-                    .FindAsync([request.Id], cancellationToken)
-                    ?? throw new Exception("Event not found");
+            context.Remove(@event);
 
-                context.Remove(@event);
-
-                await context.SaveChangesAsync(cancellationToken);
-            }
+            await context.SaveChangesAsync(cancellationToken);
         }
     }
 }
